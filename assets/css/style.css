@@ -1,5 +1,7 @@
 /* Base Styling */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
 :root {
     --background: #F4F9F4;
     --main: #C4E3CB;
@@ -15,32 +17,42 @@ body {
 
 /* Nav Bar */
 
-nav {
+header {
     background-color: var(--main);
-    height: 5em;
-    text-align: right;
-    padding-right: 1em;
-    
+    color: var(--font);
+    width: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 5.5em;
 }
 
-nav a {
+header h1 {    
+    display: inline;
+    padding-left: 1em;
+}
+
+header nav {
+    padding-right: 1em;
+    display: inline;
+    float: right;
+    margin: 0;
+}
+
+header nav a {
     text-decoration: none;
     color: var(--font);
-    line-height: 5em;
     margin-right: 2em;
+    font-weight: 600;
 }
 
-nav a:hover {    
-    text-decoration: none;
-    border-color: var(--contrast);
-    border-bottom-style: solid;
-    border-width: 3px;
-    margin-top: 2px;    
-}
-
-nav a.active {
+header nav a.active {
     border-color: var(--font);
     border-bottom-style: solid;
     border-width: 3px;
-    padding-top: 2px;
+}
+
+header nav a:hover {    
+    text-decoration: none;
+    border-color: var(--contrast);
+    border-bottom-style: solid;
+    border-width: 3px; 
 }
