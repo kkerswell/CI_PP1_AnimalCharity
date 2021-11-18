@@ -1,12 +1,8 @@
+# **<center>Cymru Animal Shelter</center>**
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
+## User Story
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
@@ -36,7 +32,25 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ------
 
-## Release History
+## User Experience (UX)
+
+* First Time Visitors
+* Design
+    * Colour Scheme
+        * Create a modern colour scheme with soft tones
+        * Primary background of the website will be white, so this would need to form part of the palette.
+        * The goal is to choose gender-neutral colours.
+        * Final palette colours that were chosen were #F4F9F4 #C4E3CB #8AAE92 #616161
+        * Source: [Link](https://colorhunt.co/palette/f4f9f4c4e3cb8aae92616161)
+    * Typography
+    * Imagery
+* Wireframes
+
+## Features
+
+List of features
+
+## Update log
 
 We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
@@ -90,14 +104,10 @@ It is not possible for us or anyone else to trace the random ID back to an indiv
 
 We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+**Sources**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+https://commonmark.org/help/
+https://colorhunt.co/
 
 **Anything more?**
 
