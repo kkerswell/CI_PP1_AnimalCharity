@@ -108,11 +108,8 @@ We want to tell you this so that we are being completely transparent about the d
 
 https://commonmark.org/help/
 https://colorhunt.co/
+https://www.w3schools.com/css/css3_variables.asp
 
-**Anything more?**
+**Problems**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+spacing the a links in the nav bar.  I originally tried to add margin and padding but this was having an undesired effect.  I got arround this by adding line-height to the nav a section.

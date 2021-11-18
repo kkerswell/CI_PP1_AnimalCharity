@@ -1,3 +1,46 @@
-* {
-    background-color: brown;
+/* Base Styling */
+
+:root {
+    --background: #F4F9F4;
+    --main: #C4E3CB;
+    --contrast: #8AAE92;
+    --font: #616161;
+}
+
+body {
+    background-color: var(--background);
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav Bar */
+
+nav {
+    background-color: var(--main);
+    height: 5em;
+    text-align: right;
+    padding-right: 1em;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--font);
+    line-height: 5em;
+    margin-right: 2em;
+}
+
+nav a:hover {    
+    text-decoration: none;
+    border-color: var(--contrast);
+    border-bottom-style: solid;
+    border-width: 3px;
+    margin-top: 2px;    
+}
+
+nav a.active {
+    border-color: var(--font);
+    border-bottom-style: solid;
+    border-width: 3px;
+    padding-top: 2px;
 }
