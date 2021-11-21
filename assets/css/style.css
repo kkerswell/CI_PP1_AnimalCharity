@@ -146,3 +146,98 @@ footer ul a {
 footer ul a:hover {
     color: var(--main);
 }
+
+/* Form */
+
+#form_header {
+    color: var(--font);
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 3em;
+}
+
+form {
+    border-radius: 5px;
+    background-color:var(--background);
+    color: var(--font);
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-top: 3em;
+}
+
+form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    resize: none;
+}
+
+form input[type=checkbox], select {
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    align-self: flex-start;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+  
+form input[type=submit] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 3em;
+    display: block;
+}
+
+form input[type=reset] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: block;
+    margin-top: 1em;
+}
+
+form input[type=submit]:hover {
+    background-color: #45a049;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+form input[type=reset]:hover {
+    background-color: #45a049;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+  

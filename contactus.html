@@ -27,14 +27,32 @@
 
     <section>
 
-        <!-- Bootstrap utilised to create form -->
-        <form>
-            <div>
-              <label for="InputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <button type="submit" class="form-btn">Submit</button>
+        <div id="form_header">
+            <h1>Contact Us!</h1>
+        </div>
+
+        <!-- I wanted to create a seperate page popup to confirm the form data was submitted successfully.  For this I used (( target="print_popup" onsubmit="window.open('about:blank','print_popup','width=1000,height=800');" )) in the form element.  My source for this solution can be found at https://stackoverflow.com/a/35421291 -->
+
+        <form method="POST" action="https://formdump.codeinstitute.net/" target="print_popup" onsubmit="window.open('about:blank','print_popup','width=1000,height=800');">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="aname">Animal's Name</label>
+            <input type="text" id="aname" name="animalname" placeholder="The animal's name..">
+        
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Write your message.." style="height:200px"></textarea>
+        
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">By checking this box, you agree to sign up to our weekly newsletter.  You can unsubscribe at any time.</label>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        
         </form>
 
     </section>
@@ -42,10 +60,10 @@
     <footer>
         <p>&copy; Copyright Cymru Animal Shelter 2021</p>
         <ul>
-            <!-- These are examples used for showing possible functionality but do not lead to specific social media pages -->
-            <li><a href="" target="_blank" class="fab fa-facebook"></a></li>
-            <li><a href="" target="_blank" class="fab fa-twitter"></a></li>
-            <li><a href="" target="_blank" class="fab fa-instagram"></a></li>
+            <!-- These are examples used for showing possible functionality but do not lead to specific social media pages.  For a fully working page, I would add target="_blank" to each a element but I have excluded it in this site on purpose as the page does not lead anywhere.  -->
+            <li><a href="#" class="fab fa-facebook"></a></li>
+            <li><a href="#" class="fab fa-twitter"></a></li>
+            <li><a href="#" class="fab fa-instagram"></a></li>
         </ul>
     </footer>
 
