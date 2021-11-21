@@ -109,6 +109,9 @@ We want to tell you this so that we are being completely transparent about the d
 https://commonmark.org/help/
 https://colorhunt.co/
 https://www.w3schools.com/css/css3_variables.asp
+https://unsplash.com/
+https://fontawesome.com/
+https://fonts.google.com/
 
 **Problems**
 
