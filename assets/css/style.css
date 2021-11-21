@@ -17,6 +17,10 @@ body, h1, h2, h3, h4, h5, p {
     margin: 0;
 }
 
+/*******************************************/
+/* Index Page */
+/*******************************************/
+
 /***********/
 /* Nav Bar */
 /***********/
@@ -147,7 +151,13 @@ footer ul a:hover {
     color: var(--main);
 }
 
-/* Form */
+/*******************************************/
+/* Contact Us Page */
+/*******************************************/
+
+/**************/
+/* Page Title */
+/**************/
 
 #form_header {
     color: var(--font);
@@ -157,6 +167,10 @@ footer ul a:hover {
     text-align: center;
     padding-top: 3em;
 }
+
+/********/
+/* Form */
+/********/
 
 form {
     border-radius: 5px;
@@ -241,3 +255,52 @@ form input[type=reset]:hover {
     font-family: 'Montserrat Alternates', sans-serif;
 }
   
+/*******************************************/
+/* About Us Page */
+/*******************************************/
+
+.about_content {
+    padding: 5em 10em;
+}
+
+.bottom_content {
+    margin-top: 2em;
+}
+
+/********/
+/* Text */
+/********/
+
+.about_text {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: var(--font);
+    display: inline-block;
+    width: 50%;
+}
+
+.dog_text {
+    padding-left: 5em;
+}
+
+.cat_text {
+    float: right;
+}
+
+/**********/
+/* Images */
+/**********/
+
+.animal_hero {
+    height: 350px;
+    width: 550px;
+    display: inline-block;
+}
+
+.dog_hero {
+    float: right;
+    padding-right: 7em;
+}
+
+.cat_hero  {
+    padding-left: 7em;
+}
