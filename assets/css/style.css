@@ -108,6 +108,10 @@ footer ul a:hover {
     color: var(--main);
 }
 
+#fr-footer {
+    margin-top: 5em;
+}
+
 
 /*******************************************/
 /* Index Page */
@@ -236,8 +240,50 @@ section {
 /* Fundraising Page */
 /*******************************************/
 
+.fr-header {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2em;
+}
 
+.fr-column {
+    float: left;
+    width: 50%;
+  }
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+body, h1, h2, h3, h4, h5, p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: var(--font);
+}
+
+.fr-month {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.fr-desc {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.fr-event-date{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.fr-event-desc {
+    text-align: center;
+    font-size: 1.1em;
+}
 
 /*******************************************/
 /* Contact Us Page */
