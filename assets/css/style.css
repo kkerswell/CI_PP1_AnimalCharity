@@ -236,7 +236,46 @@ section {
 /* Our Animals Page */
 /*******************************************/
 
+.animal-nav {
+    text-align: center;
+}
 
+.animal-nav p {
+    text-align: center;
+    width: 25%;
+    /* padding: 14px 20px; */
+    margin: auto;
+    background-color: var(--main) !important;
+    color: var(--font);
+    cursor: pointer;
+    display: inline-block;
+    border-width: 0;
+    margin-top: 2em;
+    font-size: large;
+    height: 3em;
+    line-height: 3em;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 4px;
+}
+
+.animal-nav p:hover {
+    background-color: var(--contrast) !important;
+}
+
+#DogDiv iframe {
+    width: 100%;
+    border-width: 2px;
+    border-top-style: dotted;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    border-left-style: hidden;
+    border-color: violet;
+}
+
+#CatDiv iframe {
+    width: 100%;
+    border-width: 0;
+}
 
 
 /*******************************************/
