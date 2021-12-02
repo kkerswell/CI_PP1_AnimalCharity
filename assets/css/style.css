@@ -12,14 +12,10 @@
 }
 
 body, h1, h2, h3, h4, h5, p {
-    background-color: var(--background);
+    background-color: var(--background) !important; /* !important used here to override bootstrap styling */
     padding: 0;
     margin: 0;
 }
-
-/*******************************************/
-/* Index Page */
-/*******************************************/
 
 /***********/
 /* Nav Bar */
@@ -34,16 +30,19 @@ header {
 }
 
 header h1 {    
-    display: inline;
-    padding-left: 1em;
-    background-color: var(--main);
+    display: inline !important;
+    padding-left: 1em !important;
+    background-color: var(--main) !important; /* !important used here to override bootstrap styling */
+    font-size: 2em;
+    font-weight: 600;
+    line-height: unset; /* !important used here to override bootstrap styling */
 }
 
 header nav {
-    padding-right: 1em;
-    display: inline;
-    float: right;
-    margin: 0;
+    padding-right: 1em !important;
+    display: inline !important;
+    float: right !important;
+    margin: 0 !important;
 }
 
 header nav a {
@@ -63,8 +62,56 @@ header nav a:hover {
     text-decoration: none;
     border-color: var(--contrast);
     border-bottom-style: solid;
-    border-width: 3px; 
+    border-width: 3px;
+    color: var(--font);
 }
+
+/**********/
+/* Footer */
+/**********/
+
+footer {
+    width: 100%;
+    display: inline-block;
+    background-color: var(--contrast);
+}
+
+footer p {
+    background-color: var(--contrast) !important; /* !important used here to override bootstrap styling */
+    color: var(--font);
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 5.5em;
+    font-size: medium;
+    font-weight: 600;
+    padding-left: 3em;
+    display: inline-block;
+}
+
+footer ul {
+    background-color: var(--contrast);
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+    line-height: 5.5em;
+    margin: 0;
+    padding-right: 3em;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: var(--font);
+    font-size: x-large;
+    margin: 0 0 0 1em;
+}
+
+footer ul a:hover {
+    color: var(--main);
+}
+
+
+/*******************************************/
+/* Index Page */
+/*******************************************/
 
 /*************/
 /* Main Body */
@@ -95,8 +142,8 @@ section {
 /*******************/
 
 .fg-main {
-    background-color: var(--background);    /* Fallback color */
-    background-color: rgba(225, 225, 225, 0.8);    /* Black w/opacity/see-through */
+    background-color: var(--background) !important;    /* Fallback color */ /* !important used here to override bootstrap styling */
+    background-color: rgba(225, 225, 225, 0.8) !important;    /* Black w/opacity/see-through */ /* !important used here to override bootstrap styling */
     z-index: 2;
     position: absolute;
     top: 0%;
@@ -114,8 +161,8 @@ section {
 }
 
 .fg-text h1, .fg-text h3, .fg-text p {
-    background-color: var(--background);    /* Fallback color */
-    background-color: rgba(225, 225, 225, 0);    /* Black w/opacity/see-through */
+    background-color: var(--background) !important;    /* Fallback color */ /* !important used here to override bootstrap styling */
+    background-color: rgba(225, 225, 225, 0) !important;    /* Black w/opacity/see-through */ /* !important used here to override bootstrap styling */
     color: var(--font);
     font-weight: bold;
     text-align: center;
@@ -134,47 +181,63 @@ section {
     font-size: 20px;
 }
 
-/**********/
-/* Footer */
-/**********/
 
-footer {
-    width: 100%;
-    display: inline-block;
-    background-color: var(--contrast);
+
+/*******************************************/
+/* About Us Page */
+/*******************************************/
+
+.container {
+    background-color: var(--background);
 }
 
-footer p {
-    background-color: var(--contrast);
-    color: var(--font);
+.about_content {
+    margin: 6.5em !important; /* !important used here to override bootstrap styling */
+}
+
+/********/
+/* Text */
+/********/
+
+.about_text {
     font-family: 'Montserrat Alternates', sans-serif;
-    line-height: 5.5em;
-    font-size: medium;
-    font-weight: 600;
-    padding-left: 3em;
-    display: inline-block;
-}
-
-footer ul {
-    background-color: var(--contrast);
-    list-style-type: none;
-    display: inline-flex;
-    float: right;
-    line-height: 5.5em;
-    margin: 0;
-    padding-right: 3em;
-}
-
-footer ul a {
-    text-decoration: none;
     color: var(--font);
-    font-size: x-large;
-    margin: 0 0 0 1em;
 }
 
-footer ul a:hover {
-    color: var(--main);
+/**********/
+/* Images */
+/**********/
+
+.animal_hero {
+    height: 350px;
+    width: 550px;
+    border-radius: 10%;
 }
+
+/* .dog_hero {
+    margin-right: 5em;
+    position: relative;
+}
+
+.cat_hero  {
+    margin-left: 5em;
+    position: relative;
+}  */
+
+
+/*******************************************/
+/* Our Animals Page */
+/*******************************************/
+
+
+
+
+/*******************************************/
+/* Fundraising Page */
+/*******************************************/
+
+
+
 
 /*******************************************/
 /* Contact Us Page */
@@ -279,54 +342,4 @@ form input[type=submit]:hover {
 form input[type=reset]:hover {
     background-color: var(--contrast);
     font-family: 'Montserrat Alternates', sans-serif;
-}
-  
-/*******************************************/
-/* About Us Page */
-/*******************************************/
-
-.about_content {
-    padding: 5em 10em;
-}
-
-.bottom_content {
-    margin-top: 2em;
-}
-
-/********/
-/* Text */
-/********/
-
-.about_text {
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: var(--font);
-    display: inline-block;
-    width: 50%;
-}
-
-.dog_text {
-    padding-left: 5em;
-}
-
-.cat_text {
-    float: right;
-}
-
-/**********/
-/* Images */
-/**********/
-
-.animal_hero {
-    height: 350px;
-    width: 550px;
-    display: inline-block;
-}
-
-.dog_hero {
-    float: right;
-    padding-right: 7em;
-}
-
-.cat_hero  {
-    padding-left: 7em;
 }
