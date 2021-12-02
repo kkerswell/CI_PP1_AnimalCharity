@@ -112,6 +112,10 @@ footer ul a:hover {
     margin-top: 5em;
 }
 
+#cu-footer {
+    margin-top: 18em;
+}
+
 
 /*******************************************/
 /* Index Page */
@@ -184,7 +188,6 @@ section {
 .fg-text p {
     font-size: 20px;
 }
-
 
 
 /*******************************************/
@@ -388,4 +391,41 @@ form input[type=submit]:hover {
 form input[type=reset]:hover {
     background-color: var(--contrast);
     font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+/*******************/
+/* Contact Details */
+/*******************/
+
+.cu-hr {
+    width: 50%;
+    margin-top: 2em;
+}
+
+.cu-row {
+    padding-top: 3em;
+}
+
+.cu-column {
+    float: left;
+    width: 50%;
+}
+
+/***********/
+/* Address */
+/***********/
+
+.cu-address {
+    float: right;
+    margin-right: 5em;
+}
+
+/**************/
+/* Map iframe */
+/**************/
+
+.cu-details iframe {
+    width: 350px;
+    height: 350px;
 }
