@@ -1,34 +1,23 @@
 # **<center>Cymru Animal Shelter</center>**
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 ## User Story
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Build a website that allows the owners of an animal shelter to advertise animals available for adoptions and also their fundraising events.
 
-`python3 -m http.server`
+### External user’s goal ###
+* Visit a website to view animals available for adoption.
+* Visit the website to see any fundraising events.
+* Visit the website to contact the shelter.
+* Visit the website to find how where the shelter is located.
 
-A blue button should appear to click: _Make Public_,
+### Site owner's goal ###
 
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* Attracting people who want to adopt an animal.
+* Have a page describing the shelter and its purpose
+* Have a gallery of all animals currently available for adoption.
+* Have a page dedicated to advertising annual fundraising events.
+* Provide a method for users of the website to contact the shelter to express interest in an animal. 
+* Provide information on the gym's location
 
 ------
 
@@ -50,71 +39,69 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 List of features
 
-## Update log
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
 ------
 
-## FAQ about the uptime script
+## External Sources ##
 
-**Why have you added this script?**
+* https://commonmark.org/help/
+* https://colorhunt.co/
+* https://www.w3schools.com/css/css3_variables.asp
+* https://unsplash.com/
+* https://fontawesome.com/
+* https://fonts.google.com/
+* https://stackoverflow.com/
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- - - -
 
-**How will this affect me?**
+## Development ##
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Building and Maintaining ##
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+GitHub was used as version control software to maintain, upload and share code with other developers.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+GitPod was used to write the code.
 
-**So….?**
+#### Commits ####
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+I kept track of updates by using commits in Git.  The terminal commands for these were:
 
-**Sources**
+* git add .
+* git commit -m "Description of change"
+* git push
 
-https://commonmark.org/help/
-https://colorhunt.co/
-https://www.w3schools.com/css/css3_variables.asp
-https://unsplash.com/
-https://fontawesome.com/
-https://fonts.google.com/
-https://stackoverflow.com/
+### Deployment ###
 
-**Problems**
+The website was deployed to GitHub Pages.
+
+The public URL for my website is: https://kkerswell.github.io/CI_PP1_AnimalCharity/
+
+To complete this action I completed the following process:
+
+1. Navigated to my site repository
+
+    https://github.com/kkerswell/CI_PP1_AnimalCharity
+
+2. Clicked on "Settings" within the top navigation area
+
+    ![picture alt](/assets/readme/images/github-deploy-1.png)
+
+3. Clicked on "Pages" within the side navigation area
+
+    ![picture alt](/assets/readme/images/github-deploy-2.png)
+
+4. Clicked the dropdown box under "Source" and choose "main"
+
+    ![picture alt](/assets/readme/images/github-deploy-3.png)
+
+5. Clicked on the "Save" button
+
+    ![picture alt](/assets/readme/images/github-deploy-4.png)
+
+6. Once saved, the url is then provided
+
+    ![picture alt](/assets/readme/images/github-deploy-5.png)
+
+## Problems ##
 
 * spacing the a links in the nav bar.  I originally tried to add margin and padding but this was having an undesired effect.  I got arround this by adding line-height to the nav a section.
 * When Adding a h1 to the header, the alignment of both h1 and nav changed to an undesired style. I struggled to get the h1 to align left and the nav to align right.  I then changed both to display inline but the nav was then aligned right next to the h1 on the right side of the page, when I wanted it on the left. I overcame this by adding float right to the nav.
