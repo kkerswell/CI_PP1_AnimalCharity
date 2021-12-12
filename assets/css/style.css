@@ -13,6 +13,7 @@
 
 body, h1, h2, h3, h4, h5, p {
     background-color: var(--background) !important; /* !important used here to override bootstrap styling */
+    font-family: 'Montserrat Alternates', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -64,6 +65,10 @@ header nav a:hover {
     border-bottom-style: solid;
     border-width: 3px;
     color: var(--font);
+}
+
+.w3css-remove h1 {
+    font-size: 2em !important;
 }
 
 /**********/
@@ -225,16 +230,6 @@ section {
     border-radius: 10%;
 }
 
-/* .dog_hero {
-    margin-right: 5em;
-    position: relative;
-}
-
-.cat_hero  {
-    margin-left: 5em;
-    position: relative;
-}  */
-
 
 /*******************************************/
 /* Our Animals Page */
@@ -268,7 +263,8 @@ section {
 
 .animal-container {
     display: block;
-    height: min-content;  
+    height: min-content;
+    margin-bottom: 3em;
 }
 
 .animal-content {
@@ -280,16 +276,31 @@ section {
 }
 
 .animial_ours {
-    width: 350px;
+    display: block;
+    width: 90%;
     border-radius: 5%;
-    margin-top: 3em;
-    margin-left: 1em;
+    margin: auto;
 }
 
 #dog h1, #cat h1 {
     color: var(--contrast);
 }
 
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.40);
+    width: 30% !important;
+    display: inline-block;
+    padding-top: 2em;
+    margin: 1em;
+}
+
+.card p {
+    margin: 2em;
+}
+
+.card-container {
+    text-align: center;
+}
 
 /*******************************************/
 /* Fundraising Page */

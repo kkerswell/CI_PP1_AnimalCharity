@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <header>
+    <header class="w3css-remove">
 
         <h1>Cymru Animal Shelter</h1>
 
@@ -37,54 +37,57 @@
         <div class="animal-content">
             <div id="dog">
                 <h1>Our Dogs</h1>
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <!-- Source: https://unsplash.com/photos/JNgO5_O0sIo -->
-                                <img src="/assets/images/animal-dog-molly.jpg" class="animial_ours"
-                                    alt="Dog named molly"></td>
-                            <td>Molly</td>
-                            <td>EMPTY</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <!-- Source: https://unsplash.com/photos/8hlUKfkuCiQ -->
-                                <img src="/assets/images/animal-dog-carl.jpg" class="animial_ours" alt="Dog named carl">
-                            </td>
-                            <td>Carl</td>
-                            <td>EMPTY</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <!-- Source: https://unsplash.com/photos/PL2BF6hYu_U -->
-                                <img src="/assets/images/animal-dog-eliza.jpg" class="animial_ours"
-                                    alt="Dog named eliza"></td>
-                            <td>Eliza</td>
-                            <td>EMPTY</td>
-                        </tr>
-                    </tbody>
-                </table>
 
+                <div class="card">
+                    <!-- Source: https://unsplash.com/photos/JNgO5_O0sIo -->
+                    <img src="/assets/images/animal-dog-molly.jpg" class="animial_ours" alt="Dog named molly">
+                    <div class="card-container">
+                        <p>Name: Molly</p>
+                        <p>Age: 4</p>
+                    </div> 
+                </div>
+
+                <div class="card">
+                    <!-- Source: https://unsplash.com/photos/8hlUKfkuCiQ -->
+                    <img src="/assets/images/animal-dog-carl.jpg" class="animial_ours" alt="Dog named carl">
+                    <div class="card-container">
+                        <p>Name: Carl</p>
+                        <p>Age: 2</p>
+                    </div> 
+                </div>
+
+                <div class="card">
+                    <!-- Source: https://unsplash.com/photos/PL2BF6hYu_U -->
+                    <img src="/assets/images/animal-dog-eliza.jpg" class="animial_ours" alt="Dog named eliza">
+                    <div class="card-container">
+                        <p>Name: Eliza</p>
+                        <p>Age: 8</p>
+                    </div> 
+                </div>
             </div>
 
             <div id="cat">
-                <h1>Our Cats</h1>
-                <section>
+                <h1>Our Cats</h1>                
 
-                    <!-- Source: https://unsplash.com/photos/3hvmrZJTfJU -->
-                    <span><img src="/assets/images/animla-cat-george.jpg" class="animial_ours"
-                            alt="Cat named george"></span>
-                    <span>
-                        <p>Geoge</p>
-                    </span>
+                    <div class="card">
+                        <!-- Source: https://unsplash.com/photos/3hvmrZJTfJU -->
+                        <img src="/assets/images/animla-cat-george.jpg" class="animial_ours" alt="Cat named george">
+                        <div class="card-container">
+                            <p>Name: George</p>
+                            <p>Age: 1</p>
+                        </div>                        
+                    </div>
 
-                    <!-- Source: https://unsplash.com/photos/On6bRQRn5lY -->
-                    <img src="/assets/images/animal-cat-nini.jpg" class="animial_ours" alt="Cat named nini">
-
-                </section>
-
+                    <div class="card">
+                        <!-- Source: https://unsplash.com/photos/On6bRQRn5lY -->
+                        <img src="/assets/images/animal-cat-nini.jpg" class="animial_ours" alt="Cat named nini">
+                        <div class="card-container">
+                            <p>Name: Nini</p>
+                            <p>Age: 6</p>
+                        </div>
+                    </div>
             </div>
+
         </div>
 
     </section>
