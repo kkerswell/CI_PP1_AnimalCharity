@@ -27,42 +27,69 @@
 
     <section class="animal-container">
 
-        <!-- Source code https://stackoverflow.com/a/561114991 -->
-
-        <script>
-            function DogFunction() {
-            var dog = document.getElementById("DogDiv");
-            var cat = document.getElementById("CatDiv");
-            cat.style.display = "none";
-            dog.style.display = "block";
-            }
-
-            function CatFunction() {
-            var cat = document.getElementById("CatDiv");
-            var dog = document.getElementById("DogDiv");
-            dog.style.display = "none";
-            cat.style.display = "block";
-            }
-
-        </script>
-
         <div class="animal-nav">
-            <p onclick="DogFunction()">Dogs</p>
-            <p onclick="CatFunction()">Cats</p>
-        </div>    
-        
+            <!-- Whilst the amount of content on the page currently doesn't warrant a seperate nav, this functionality has been added to future proof the page if/when more animals were added by the site owner.  An alternitve here would be to create seperate page for both cats and dogs bit I chose to keep them to one page just for this project.  -->
 
-        <div id="DogDiv" style="display:none">
-            <iframe src="dog.html"></iframe>
+            <a href="#dog">Dogs</a>
+            <a href="#cat">Cats</a>
+        </div>        
+
+        <div class="animal-content">
+            <div id="dog">
+                <h1>Our Dogs</h1>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <!-- Source: https://unsplash.com/photos/JNgO5_O0sIo -->
+                                <img src="/assets/images/animal-dog-molly.jpg" class="animial_ours"
+                                    alt="Dog named molly"></td>
+                            <td>Molly</td>
+                            <td>EMPTY</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Source: https://unsplash.com/photos/8hlUKfkuCiQ -->
+                                <img src="/assets/images/animal-dog-carl.jpg" class="animial_ours" alt="Dog named carl">
+                            </td>
+                            <td>Carl</td>
+                            <td>EMPTY</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Source: https://unsplash.com/photos/PL2BF6hYu_U -->
+                                <img src="/assets/images/animal-dog-eliza.jpg" class="animial_ours"
+                                    alt="Dog named eliza"></td>
+                            <td>Eliza</td>
+                            <td>EMPTY</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div id="cat">
+                <h1>Our Cats</h1>
+                <section>
+
+                    <!-- Source: https://unsplash.com/photos/3hvmrZJTfJU -->
+                    <span><img src="/assets/images/animla-cat-george.jpg" class="animial_ours"
+                            alt="Cat named george"></span>
+                    <span>
+                        <p>Geoge</p>
+                    </span>
+
+                    <!-- Source: https://unsplash.com/photos/On6bRQRn5lY -->
+                    <img src="/assets/images/animal-cat-nini.jpg" class="animial_ours" alt="Cat named nini">
+
+                </section>
+
+            </div>
         </div>
 
-        <div id="CatDiv" style="display:none">
-            <iframe src="cat.html"></iframe>
-        </div>
-        
     </section>
 
-    <footer>
+    <footer id="oa-footer">
         <p>&copy; Copyright Cymru Animal Shelter 2021</p>
         <ul>
             <!-- These are examples used for showing possible functionality but do not lead to specific social media pages -->

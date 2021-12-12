@@ -116,6 +116,10 @@ footer ul a:hover {
     margin-top: 18em;
 }
 
+#ou-footer {
+    margin-top: 5em;
+}
+
 
 /*******************************************/
 /* Index Page */
@@ -240,10 +244,9 @@ section {
     text-align: center;
 }
 
-.animal-nav p {
+.animal-nav a {
     text-align: center;
-    width: 25%;
-    /* padding: 14px 20px; */
+    width: 20%;
     margin: auto;
     background-color: var(--main) !important;
     color: var(--font);
@@ -256,25 +259,35 @@ section {
     line-height: 3em;
     font-family: 'Montserrat Alternates', sans-serif;
     border-radius: 4px;
+    text-decoration: none;
 }
 
-.animal-nav p:hover {
+.animal-nav a:hover {
     background-color: var(--contrast) !important;
 }
 
-#DogDiv iframe {
-    width: 100%;
-    border-width: 2px;
-    border-top-style: dotted;
-    border-right-style: hidden;
-    border-bottom-style: hidden;
-    border-left-style: hidden;
-    border-color: violet;
+.animal-container {
+    display: block;
+    height: min-content;  
 }
 
-#CatDiv iframe {
-    width: 100%;
-    border-width: 0;
+.animal-content {
+    margin: 0 3em 0 3em;
+}
+
+#dog, #cat {
+    margin-top: 3em;
+}
+
+.animial_ours {
+    width: 350px;
+    border-radius: 5%;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+#dog h1, #cat h1 {
+    color: var(--contrast);
 }
 
 
