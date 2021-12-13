@@ -105,3 +105,4 @@ To complete this action I completed the following process:
 
 * spacing the a links in the nav bar.  I originally tried to add margin and padding but this was having an undesired effect.  I got arround this by adding line-height to the nav a section.
 * When Adding a h1 to the header, the alignment of both h1 and nav changed to an undesired style. I struggled to get the h1 to align left and the nav to align right.  I then changed both to display inline but the nav was then aligned right next to the h1 on the right side of the page, when I wanted it on the left. I overcame this by adding float right to the nav.
+* When hosting page on GitHub pages, the site did not work correctly.  I had to change all file paths to relative in order for this to work.

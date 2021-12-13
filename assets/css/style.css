@@ -71,6 +71,54 @@ header nav a:hover {
     font-size: 2em !important;
 }
 
+/*************************************/
+/* Media Query for responsive design */
+/*************************************/
+
+@media only screen and (max-width: 1100px) {
+    
+    header {
+        line-height: 5em;
+    }
+    header h1 {
+        padding-left: 0.5em !important;
+        font-size: 1em;
+    }
+    header nav {
+        padding-right: 0.5em !important;
+        display: inline-block !important;
+    }
+
+    header nav a {
+        font-size: 0.75em;
+        margin-right: 0.5em;
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        line-height: 3em;
+    }
+    header h1 {
+        padding-left: 0.5em !important;
+        font-size: 1em;
+    }
+    header nav {
+        padding-right: 0.5em !important;
+        display: inline-block !important;
+    }
+
+    header nav a {
+        font-size: 0.75em;
+        margin-right: 0.5em;
+        font-weight: 600;
+    }
+    
+}
+
 /**********/
 /* Footer */
 /**********/
@@ -125,6 +173,36 @@ footer ul a:hover {
     margin-top: 5em;
 }
 
+/*************************************/
+/* Media Query for responsive design */
+/*************************************/
+
+@media only screen and (max-width: 1100px) {
+    
+    footer {
+        line-height: 5em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    footer {
+        line-height: 3em;
+    }
+
+    footer li a {
+        font-size: 0.75em;
+        line-height: 3em;
+    }
+
+    footer p {
+        font-size: 0.75em;
+        margin-right: 0.5em;
+        font-weight: 600;
+        line-height: 3em;
+    }
+
+}
 
 /*******************************************/
 /* Index Page */
@@ -174,7 +252,7 @@ section {
 .fg-text {
     position: inherit;
     top: 20%;
-    width: 100%; 
+    width: 100%;
 }
 
 .fg-text h1, .fg-text h3, .fg-text p {
@@ -183,7 +261,6 @@ section {
     color: var(--font);
     font-weight: bold;
     text-align: center;
-    margin-bottom: 150px;
 }
 
 .fg-text h1 {
@@ -192,12 +269,90 @@ section {
 
 .fg-text h3 {
     font-size: 45px;
+    margin-top: 2em;
 }
 
 .fg-text p {
     font-size: 20px;
+    margin: 7em 3em 0 3em;
 }
 
+/*************************************/
+/* Media Query for responsive design */
+/*************************************/
+
+@media only screen and (max-width: 1100px) {
+    
+    .bg-img {
+        width: 100%;
+        max-height: 50vh;
+        display: block;
+        padding-top: 0;
+    }
+
+    .fg-main {
+        display: block;
+        background-color: var(--background) !important;    /* Fallback color */ /* !important used here to override bootstrap styling */
+        z-index: 0;
+        position: relative;
+        transform: translate(0, 0);
+        width: 100%;
+        height: 0vh;
+        border-radius: 0;
+    }
+
+    .fg-text h1 {
+        font-size: 45px;
+        margin-top: 1em;
+    }
+    
+    .fg-text h3 {
+        font-size: 28px;
+        margin-top: 2em;
+    }
+    
+    .fg-text p {
+        font-size: 16px;
+        margin-top: 4em;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .bg-img {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding-top: 0;
+    }
+
+    .fg-main {
+        display: block;
+        background-color: var(--background) !important;    /* Fallback color */ /* !important used here to override bootstrap styling */
+        z-index: 0;
+        position: relative;
+        transform: translate(0, 0);
+        width: 100%;
+        height: 0vh;
+        border-radius: 0;
+    }
+
+    .fg-text h1 {
+        font-size: 45px;
+        margin-top: 1em;
+    }
+    
+    .fg-text h3 {
+        font-size: 28px;
+        margin-top: 2.5em;
+    }
+    
+    .fg-text p {
+        font-size: 16px;
+    }
+    
+}
 
 /*******************************************/
 /* About Us Page */
