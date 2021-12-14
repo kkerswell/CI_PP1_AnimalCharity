@@ -747,3 +747,35 @@ form input[type=reset]:hover {
     width: 350px;
     height: 350px;
 }
+
+/*************************************/
+/* Media Query for responsive design */
+/*************************************/
+
+@media only screen and (max-width: 900px) {
+    
+    .cu-smaller-column {
+        width: 100%;
+    }
+
+    .cu-address {
+        float: none;
+        text-align: center;
+        margin-bottom: 2em !important;
+    }
+
+    .cu-details iframe {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    form input[type=submit] {
+        width: 100%;
+    }
+    
+    form input[type=reset] {
+        width: 100%;
+    }
+
+}
