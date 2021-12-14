@@ -119,6 +119,26 @@ To complete this action I completed the following process:
 
 https://validator.w3.org/ was used to validate HTML.
 
+1. index.html
+
+
+
+2. about.html
+
+
+
+3. animals.html
+
+
+
+4. fundraising.html
+
+
+
+5. contactus.html
+
+
+
 ### CSS Validation
 
 https://jigsaw.w3.org/css-validator/ was used to validate CSS.
