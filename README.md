@@ -104,13 +104,6 @@ To complete this action I completed the following process:
 
     ![picture alt](/assets/readme/images/github-deploy-5.png)
 
-## Problems ##
-
-* spacing the a links in the nav bar.  I originally tried to add margin and padding but this was having an undesired effect.  I got arround this by adding line-height to the nav a section.
-* When Adding a h1 to the header, the alignment of both h1 and nav changed to an undesired style. I struggled to get the h1 to align left and the nav to align right.  I then changed both to display inline but the nav was then aligned right next to the h1 on the right side of the page, when I wanted it on the left. I overcame this by adding float right to the nav.
-* When hosting page on GitHub pages, the site did not work correctly.  I had to change all file paths to relative in order for this to work.
-* When re-sizing the "Our Animals" page, the animal-nav element would not centre align and would instead move to the left. This placement would move further to left the smaller the screen became.  I tried different align options in CSS but this did not work. I finally obtained an answer by asking in the course's slack community, who advised that I needed to ................
-
 ---
 
 ## Testing
@@ -168,3 +161,31 @@ https://developers.google.com/web/tools/lighthouse was used to test performance.
 
 http://ami.responsivedesign.is was used to test responsiveness.
 
+1. index.html
+
+![Picture](/assets/readme/images/index-r.png)
+
+2. about.html
+
+![Picture](/assets/readme/images/about-r.png)
+
+3. animals.html
+
+![Picture](/assets/readme/images/animals-r.png)
+
+4. fundraising.html
+
+![Picture](/assets/readme/images/fundraising-r.png)
+
+5. contactus.html
+
+![Picture](/assets/readme/images/contactus-r.png)
+
+---
+
+## Problems ##
+
+* spacing the a links in the nav bar.  I originally tried to add margin and padding but this was having an undesired effect.  I got arround this by adding line-height to the nav a section.
+* When Adding a h1 to the header, the alignment of both h1 and nav changed to an undesired style. I struggled to get the h1 to align left and the nav to align right.  I then changed both to display inline but the nav was then aligned right next to the h1 on the right side of the page, when I wanted it on the left. I overcame this by adding float right to the nav.
+* When hosting page on GitHub pages, the site did not work correctly.  I had to change all file paths to relative in order for this to work.
+* When re-sizing the "Our Animals" page, the animal-nav element would not centre align and would instead move to the left. This placement would move further to left the smaller the screen became.  I tried different align options in CSS but this did not work. I finally obtained an answer by asking in the course's slack community, who advised that I needed to ................
