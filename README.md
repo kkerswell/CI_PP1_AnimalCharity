@@ -1,5 +1,7 @@
 # **<center>Cymru Animal Shelter</center>**
 
+------
+
 ## User Story
 
 Build a website that allows the owners of an animal shelter to advertise animals available for adoptions and also their fundraising events.
