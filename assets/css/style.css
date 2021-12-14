@@ -80,10 +80,13 @@ header nav a:hover {
     header {
         line-height: 5em;
     }
+
     header h1 {
         padding-left: 0.5em !important;
         font-size: 1em;
+        display: inline-block !important;
     }
+
     header nav {
         padding-right: 0.5em !important;
         display: inline-block !important;
@@ -97,18 +100,26 @@ header nav a:hover {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
 
     header {
         line-height: 3em;
+        text-align: center;
     }
+
     header h1 {
-        padding-left: 0.5em !important;
+        padding-left: 0 !important;
         font-size: 1em;
+        line-height: 2em;
+        display: block !important;
     }
     header nav {
-        padding-right: 0.5em !important;
-        display: inline-block !important;
+        padding-left: 0 !important;
+        font-size: 1em;
+        line-height: 2em;
+        float: none !important;
+        line-height: 2em;
+        padding-right: 0 !important;
     }
 
     header nav a {
@@ -184,22 +195,48 @@ footer ul a:hover {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     
     footer {
-        line-height: 3em;
+        line-height: 4em;
     }
 
     footer li a {
         font-size: 0.75em;
-        line-height: 3em;
+    }
+
+    footer ul {
+        line-height: 4em;
     }
 
     footer p {
         font-size: 0.75em;
         margin-right: 0.5em;
         font-weight: 600;
-        line-height: 3em;
+        line-height: 4em;
+    }
+
+}
+
+@media only screen and (max-width: 457px) {
+    
+    footer ul {
+        text-align: center;
+        float: none;
+        padding-inline-start: 0 !important;
+        margin-block-start: 0 !important;
+        margin-block-end: 0 !important;
+        display: block;
+        padding: 0;
+    }
+
+    footer li {
+        display: inline-block;
+    }
+
+    footer p {
+        display: block;
+        text-align: center;
     }
 
 }
@@ -303,22 +340,22 @@ section {
 
     .fg-text h1 {
         font-size: 45px;
-        margin-top: 1em;
+        margin: 2em 1em 0 1em;
     }
     
     .fg-text h3 {
         font-size: 28px;
-        margin-top: 2em;
+        margin: 2em 1em 0 1em;
     }
     
     .fg-text p {
         font-size: 16px;
-        margin-top: 4em;
+        margin: 2em 1em 0 1em;
     }
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     
     .bg-img {
         width: 100%;
@@ -340,16 +377,17 @@ section {
 
     .fg-text h1 {
         font-size: 45px;
-        margin-top: 1em;
+        margin: 1em 1em 0 1em;
     }
     
     .fg-text h3 {
         font-size: 28px;
-        margin-top: 2.5em;
+        margin: 2em 1em 0 1em;
     }
     
     .fg-text p {
         font-size: 16px;
+        margin: 2em 1em 0 1em;
     }
     
 }
@@ -390,6 +428,31 @@ section {
     display: block;
 }
 
+/*************************************/
+/* Media Query for responsive design */
+/*************************************/
+
+@media only screen and (max-width: 1100px) {
+    
+    section {
+        height: auto;
+    }
+
+    .about_content {
+        display: block;
+        margin-top: 2em;
+        padding: 0;
+    }
+    
+    .about_text {
+        text-align: center;
+        font-size: large;
+        margin-bottom: 2em;
+    }
+    .animal_hero {
+        display: none;
+    }
+}
 
 /*******************************************/
 /* Our Animals Page */
@@ -460,6 +523,23 @@ section {
 
 .card-container {
     text-align: center;
+}
+
+/*************************************/
+/* Media Query for responsive design */
+/*************************************/
+
+@media only screen and (max-width: 1100px) {
+    
+    /* .animal-nav {
+        align centre
+    } */
+    
+    .card {
+       margin: 0.5em;
+       width: 100% !important;
+    }
+
 }
 
 /*******************************************/
