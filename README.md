@@ -121,35 +121,48 @@ https://validator.w3.org/ was used to validate HTML.
 
 1. index.html
 
-
+![Picture](/assets/readme/images/index.png)
 
 2. about.html
 
-
+![Picture](/assets/readme/images/about.png)
 
 3. animals.html
 
-
+![Picture](/assets/readme/images/animals.png)
 
 4. fundraising.html
 
-
+![Picture](/assets/readme/images/fundraising.png)
 
 5. contactus.html
 
-
+![Picture](/assets/readme/images/contactus.png)
 
 ### CSS Validation
 
 https://jigsaw.w3.org/css-validator/ was used to validate CSS.
 
+![Picture](/assets/readme/images/css.png)
+
 ### Accessibility
 
 https://wave.webaim.org/ was used to test accessibility.
 
+The results were as follows:
+
+1. Errors
+    * 3 x Errors for broken links. However, these were for the three social links in the footer and is currently expected behaviour.
+2. Contrast Errors
+    * Where I had grey text on a green background, I had warnings for low contrast. However, I felt the colours worked well and decided to keep them.
+3. Alerts
+    * 1 x Alert for HTML5 video or audio. However, this was only for video with audio and the site recommended providing synchronized captioning and a transcript, the video I used did not have any audio included.
+
 ### Performance
 
 https://developers.google.com/web/tools/lighthouse was used to test performance.
+
+![Picture](/assets/readme/images/lighthouse.png)
 
 ### Responsiveness
 
