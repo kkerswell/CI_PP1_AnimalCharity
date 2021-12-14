@@ -132,75 +132,64 @@ footer ul a:hover {
 /* Index Page */
 /*******************************************/
 
-/*************/
-/* Main Body */
-/*************/
-
-section {
-    height: 95vh;
-    position: relative;
-}
-
-/********************/
-/* Bankground Image */
-/********************/
-
-.bg-img {
-    /* Dimentions */
-    width: 100%;
-    height: 95vh;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/*******************/
-/* Foreground Text */
-/*******************/
-
-.fg-main {
-    background-color: var(--background) !important;    /* Fallback color */ /* !important used here to override bootstrap styling */
-    background-color: rgba(225, 225, 225, 0.8) !important;    /* Black w/opacity/see-through */ /* !important used here to override bootstrap styling */
-    z-index: 2;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    transform: translate(12.5%, 12.5%);
-    width: 80%;
-    height: 80%;
-    border-radius: 1%;
-}
+/********/
+/* Text */
+/********/
 
 .fg-text {
-    position: inherit;
-    top: 20%;
-    width: 100%;
-}
-
-.fg-text h1, .fg-text h3, .fg-text p {
-    background-color: var(--background) !important;    /* Fallback color */ /* !important used here to override bootstrap styling */
-    background-color: rgba(225, 225, 225, 0) !important;    /* Black w/opacity/see-through */ /* !important used here to override bootstrap styling */
-    color: var(--font);
-    font-weight: bold;
+    background-color: var(--background);
     text-align: center;
 }
 
+.fg-text h1, .fg-text h3, .fg-text p {
+    color: var(--font);
+    font-weight: bold;
+    text-align: center;
+    margin: 0 2em;
+}
+
 .fg-text h1 {
-    font-size: 70px;
+    font-size: 4rem;
+    padding: 1em 0;
 }
 
 .fg-text h3 {
-    font-size: 45px;
+    font-size: 3rem;
     margin-top: 2em;
 }
 
 .fg-text p {
-    font-size: 20px;
-    margin: 7em 3em 0 3em;
+    font-size: 2rem;
+    margin: 4em 2em 0 2em;
+    padding-bottom: 3em;
 }
 
+/*********/
+/* Image */
+/*********/
+
+.bg-img img {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/*********/
+/* video */
+/*********/
+
+.main-video video {    
+    margin-top: 4em;
+}
+
+.main-video p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: unset;
+}
 
 /*******************************************/
 /* About Us Page */
@@ -627,61 +616,23 @@ form input[type=reset]:hover {
 /* Index */
 /*********/
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 600px) {
     
-    .bg-img {
-        /* Dimentions */
-        width: 100%;
-        height: auto;
-    }
-
     .fg-text h1 {
-        font-size: 40px;
-        margin: 0 1em;
+        font-size: 2rem;
     }
     
     .fg-text h3 {
-        font-size: 30px;
+        font-size: 2rem;
     }
     
     .fg-text p {
-        font-size: 18px;
-        margin-top: 3em;
+        font-size: 1rem;
     }
 
-}
-
-@media only screen and (max-width: 900px) {
-    
-    .fg-text h1 {
-        font-size: 30px;
-        margin: 0 1em;
-    }
-    
-    .fg-text h3 {
-        font-size: 20px;
-    }
-    
-    .fg-text p {
-        font-size: 15px;
-        margin-top: 3em;
-    }
-
-} 
-
-@media only screen and (max-width: 700px) {
-    
-    .fg-text h1 {
-        font-size: 20px;
-    }
-    
-    .fg-text h3 {
-        display: none;
-    }
-    
-    .fg-text p {
-        font-size: 15px;
-        margin-top: 1em;
+    .bg-img img {
+        width: 150px;
+        height: 150px;
     }
 
 } 
