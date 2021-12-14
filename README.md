@@ -1,6 +1,6 @@
 # **<center>Cymru Animal Shelter</center>**
 
-------
+![picture alt](/assets/readme/images/site-design.png)
 
 ## User Story
 
@@ -32,7 +32,7 @@ Build a website that allows the owners of an animal shelter to advertise animals
         * Primary background of the website will be white, so this would need to form part of the palette.
         * The goal is to choose gender-neutral colours.
         * Final palette colours that were chosen were #F4F9F4 #C4E3CB #8AAE92 #616161
-        * Source: [Link](https://colorhunt.co/palette/f4f9f4c4e3cb8aae92616161)
+        * Source: https://colorhunt.co/palette/f4f9f4c4e3cb8aae92616161
     * Typography
     * Imagery
 * Wireframes
@@ -52,6 +52,7 @@ List of features
 * https://fontawesome.com/
 * https://fonts.google.com/
 * https://stackoverflow.com/
+* https://colorhunt.co/
 
 - - - -
 
@@ -109,3 +110,28 @@ To complete this action I completed the following process:
 * When Adding a h1 to the header, the alignment of both h1 and nav changed to an undesired style. I struggled to get the h1 to align left and the nav to align right.  I then changed both to display inline but the nav was then aligned right next to the h1 on the right side of the page, when I wanted it on the left. I overcame this by adding float right to the nav.
 * When hosting page on GitHub pages, the site did not work correctly.  I had to change all file paths to relative in order for this to work.
 * When re-sizing the "Our Animals" page, the animal-nav element would not centre align and would instead move to the left. This placement would move further to left the smaller the screen became.  I tried different align options in CSS but this did not work. I finally obtained an answer by asking in the course's slack community, who advised that I needed to ................
+
+---
+
+## Testing
+
+### HTML Validation
+
+https://validator.w3.org/ was used to validate HTML.
+
+### CSS Validation
+
+https://jigsaw.w3.org/css-validator/ was used to validate CSS.
+
+### Accessibility
+
+https://wave.webaim.org/ was used to test accessibility.
+
+### Performance
+
+https://developers.google.com/web/tools/lighthouse was used to test performance.
+
+### Responsiveness
+
+http://ami.responsivedesign.is was used to test responsiveness.
+

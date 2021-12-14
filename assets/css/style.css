@@ -141,14 +141,14 @@ footer ul a:hover {
     text-align: center;
 }
 
-.fg-text h1, .fg-text h3, .fg-text p {
+.fg-text h2, .fg-text h3, .fg-text p {
     color: var(--font);
     font-weight: bold;
     text-align: center;
     margin: 0 2em;
 }
 
-.fg-text h1 {
+.fg-text h2 {
     font-size: 4rem;
     padding: 1em 0;
 }
@@ -618,7 +618,7 @@ form input[type=reset]:hover {
 
 @media only screen and (max-width: 600px) {
     
-    .fg-text h1 {
+    .fg-text h2 {
         font-size: 2rem;
     }
     
