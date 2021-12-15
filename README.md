@@ -34,14 +34,51 @@ Build a website that allows the owners of an animal shelter to advertise animals
         * Final palette colours that were chosen were #F4F9F4 #C4E3CB #8AAE92 #616161
         * Source: https://colorhunt.co/palette/f4f9f4c4e3cb8aae92616161
     * Typography
-    * Imagery
-* Wireframes
+        * Create a modern look with soft lines
+        * Final font chosen was Montserrat Alternates by Google Fonts
+        * Source: https://fonts.google.com/specimen/Montserrat+Alternates?query=Montserrat+Alternates
+    * Images and Video
+        * If the site was live then the companies own images/video would be used
+        * For the project, royalt free imagry is required
+        * Include pictures of cats and dogs
+        * sources (images): https://unsplash.com/
+        * Sources (video): https://www.pexels.com/
+
+---
+
+## Wireframes
+
+1. index.html
+
+![Picture](/assets/readme/images/index-wf.png)
+
+2. about.html
+
+![Picture](/assets/readme/images/about-wf.png)
+
+3. animals.html
+
+![Picture](/assets/readme/images/animals-wf.png)
+
+4. fundraising.html
+
+![Picture](/assets/readme/images/fundraising-wf.png)
+
+5. contactus.html
+
+![Picture](/assets/readme/images/contactus-wf.png)
+
+---
 
 ## Features
 
-List of features
+* Top navigation bar
+* Footer with copyright information and social media links
+* A homepage, about us page, fundraising page, animals for adoption page and a contact page with location information
+* Pictures and video
+* Calendar of events
 
-------
+---
 
 ## External Sources ##
 
@@ -54,7 +91,7 @@ List of features
 * https://stackoverflow.com/
 * https://colorhunt.co/
 
-- - - -
+---
 
 ## Development ##
 
@@ -188,4 +225,4 @@ http://ami.responsivedesign.is was used to test responsiveness.
 * spacing the a links in the nav bar.  I originally tried to add margin and padding but this was having an undesired effect.  I got arround this by adding line-height to the nav a section.
 * When Adding a h1 to the header, the alignment of both h1 and nav changed to an undesired style. I struggled to get the h1 to align left and the nav to align right.  I then changed both to display inline but the nav was then aligned right next to the h1 on the right side of the page, when I wanted it on the left. I overcame this by adding float right to the nav.
 * When hosting page on GitHub pages, the site did not work correctly.  I had to change all file paths to relative in order for this to work.
-* When re-sizing the "Our Animals" page, the animal-nav element would not centre align and would instead move to the left. This placement would move further to left the smaller the screen became.  I tried different align options in CSS but this did not work. I finally obtained an answer by asking in the course's slack community, who advised that I needed to ................
+* On the index page, I wanted a large full-scale image to cover the screen with a text overlay.  Whilst I managed to achieve this, I found I experienced issues when it came to responsive design. I attempted several fixes but ultimately I decided to change the design of the page to allow for easier coding and responsiveness.
