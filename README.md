@@ -1,6 +1,6 @@
 # **<center>Cymru Animal Shelter</center>**
 
-![picture alt](/assets/readme/images/site-design.png)
+![picture alt](/docs/images/site-design.png)
 
 ## User Story
 
@@ -10,7 +10,7 @@ Build a website that allows the owners of an animal shelter to advertise animals
 * Visit a website to view animals available for adoption.
 * Visit the website to see any fundraising events.
 * Visit the website to contact the shelter.
-* Visit the website to find how where the shelter is located.
+* Visit the website to find how where the shelter is located.S
 
 ### Site owner's goal ###
 
@@ -50,23 +50,23 @@ Build a website that allows the owners of an animal shelter to advertise animals
 
 1. index.html
 
-![Picture](/assets/readme/images/index-wf.png)
+![Picture](/docs/images/index-wf.png)
 
 2. about.html
 
-![Picture](/assets/readme/images/about-wf.png)
+![Picture](/docs/images/about-wf.png)
 
 3. animals.html
 
-![Picture](/assets/readme/images/animals-wf.png)
+![Picture](/docs/images/animals-wf.png)
 
 4. fundraising.html
 
-![Picture](/assets/readme/images/fundraising-wf.png)
+![Picture](/docs/images/fundraising-wf.png)
 
 5. contactus.html
 
-![Picture](/assets/readme/images/contactus-wf.png)
+![Picture](/docs/images/contactus-wf.png)
 
 ---
 
@@ -124,23 +124,23 @@ To complete this action I completed the following process:
 
 2. Clicked on "Settings" within the top navigation area
 
-    ![picture alt](/assets/readme/images/github-deploy-1.png)
+    ![picture alt](/docs/images/github-deploy-1.png)
 
 3. Clicked on "Pages" within the side navigation area
 
-    ![picture alt](/assets/readme/images/github-deploy-2.png)
+    ![picture alt](/docs/images/github-deploy-2.png)
 
 4. Clicked the dropdown box under "Source" and choose "main"
 
-    ![picture alt](/assets/readme/images/github-deploy-3.png)
+    ![picture alt](/docs/images/github-deploy-3.png)
 
 5. Clicked on the "Save" button
 
-    ![picture alt](/assets/readme/images/github-deploy-4.png)
+    ![picture alt](/docs/images/github-deploy-4.png)
 
 6. Once saved, the url is then provided
 
-    ![picture alt](/assets/readme/images/github-deploy-5.png)
+    ![picture alt](/docs/images/github-deploy-5.png)
 
 ---
 
@@ -152,29 +152,29 @@ https://validator.w3.org/ was used to validate HTML.
 
 1. index.html
 
-![Picture](/assets/readme/images/index.png)
+![Picture](/docs/images/index.png)
 
 2. about.html
 
-![Picture](/assets/readme/images/about.png)
+![Picture](/docs/images/about.png)
 
 3. animals.html
 
-![Picture](/assets/readme/images/animals.png)
+![Picture](/docs/images/animals.png)
 
 4. fundraising.html
 
-![Picture](/assets/readme/images/fundraising.png)
+![Picture](/docs/images/fundraising.png)
 
 5. contactus.html
 
-![Picture](/assets/readme/images/contactus.png)
+![Picture](/docs/images/contactus.png)
 
 ### CSS Validation
 
 https://jigsaw.w3.org/css-validator/ was used to validate CSS.
 
-![Picture](/assets/readme/images/css.png)
+![Picture](/docs/images/css.png)
 
 ### Accessibility
 
@@ -193,7 +193,7 @@ The results were as follows:
 
 https://developers.google.com/web/tools/lighthouse was used to test performance.
 
-![Picture](/assets/readme/images/lighthouse.png)
+![Picture](/docs/images/lighthouse.png)
 
 ### Responsiveness
 
@@ -201,23 +201,23 @@ http://ami.responsivedesign.is was used to test responsiveness.
 
 1. index.html
 
-![Picture](/assets/readme/images/index-r.png)
+![Picture](/docs/images/index-r.png)
 
 2. about.html
 
-![Picture](/assets/readme/images/about-r.png)
+![Picture](/docs/images/about-r.png)
 
 3. animals.html
 
-![Picture](/assets/readme/images/animals-r.png)
+![Picture](/docs/images/animals-r.png)
 
 4. fundraising.html
 
-![Picture](/assets/readme/images/fundraising-r.png)
+![Picture](/docs/images/fundraising-r.png)
 
 5. contactus.html
 
-![Picture](/assets/readme/images/contactus-r.png)
+![Picture](/docs/images/contactus-r.png)
 
 ---
 
