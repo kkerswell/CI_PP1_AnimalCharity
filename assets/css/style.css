@@ -674,7 +674,7 @@ form input[type=reset]:hover {
 /* Contact */
 /***********/
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
     
     form {
         width: 80%;
@@ -688,20 +688,37 @@ form input[type=reset]:hover {
         width: 100%;
     }
 
-.cu-address {
-    width: 100%;
-    display: block;
+    .cu-address {
+        width: 100%;
+        display: inline;
+        text-align: center;
+        position: relative;
+        font-size: 1rem;
+    }
+
+    .cu-address p {
+        margin-right: 0;
+    }
+
+    .cu-iframe {
+        width: 100%;
+        float: none;
+        display: inline;
+        margin-top: 2em;
+        display: block;
+    }
+
+    .cu-iframe iframe {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
 }
 
-.cu-address p {
-    margin-right: 0;
-}
-
-.cu-iframe {
-    width: 100%;
-    float: none;
-    display: block;
-}
-
-
+@media only screen and (max-width: 450px) {
+    .cu-iframe iframe {
+        width: 90%;
+        height: auto;
+    }
 }
