@@ -1,6 +1,6 @@
 # **<center>Cymru Animal Shelter</center>**
 
-![picture alt](/docs/images/site-design.png)
+![picture alt](/docs/site-design.png)
 
 ## User Story
 
@@ -50,23 +50,23 @@ Build a website that allows the owners of an animal shelter to advertise animals
 
 1. index.html
 
-![Picture](/docs/images/index-wf.png)
+![Picture](/docs/wireframes/index-wf.png)
 
 2. about.html
 
-![Picture](/docs/images/about-wf.png)
+![Picture](/docs/wireframes/about-wf.png)
 
 3. animals.html
 
-![Picture](/docs/images/animals-wf.png)
+![Picture](/docs/wireframes/animals-wf.png)
 
 4. fundraising.html
 
-![Picture](/docs/images/fundraising-wf.png)
+![Picture](/docs/wireframes/fundraising-wf.png)
 
 5. contactus.html
 
-![Picture](/docs/images/contactus-wf.png)
+![Picture](/docs/wireframes/contactus-wf.png)
 
 ---
 
@@ -124,23 +124,23 @@ To complete this action I completed the following process:
 
 2. Clicked on "Settings" within the top navigation area
 
-    ![picture alt](/docs/images/github-deploy-1.png)
+    ![picture alt](/docs/development/github-deploy-1.png)
 
 3. Clicked on "Pages" within the side navigation area
 
-    ![picture alt](/docs/images/github-deploy-2.png)
+    ![picture alt](/docs/development/github-deploy-2.png)
 
 4. Clicked the dropdown box under "Source" and choose "main"
 
-    ![picture alt](/docs/images/github-deploy-3.png)
+    ![picture alt](/docs/development/github-deploy-3.png)
 
 5. Clicked on the "Save" button
 
-    ![picture alt](/docs/images/github-deploy-4.png)
+    ![picture alt](/docs/development/github-deploy-4.png)
 
 6. Once saved, the url is then provided
 
-    ![picture alt](/docs/images/github-deploy-5.png)
+    ![picture alt](/docs/development/github-deploy-5.png)
 
 ---
 
@@ -152,29 +152,29 @@ https://validator.w3.org/ was used to validate HTML.
 
 1. index.html
 
-![Picture](/docs/images/index.png)
+![Picture](/docs/validation/index.png)
 
 2. about.html
 
-![Picture](/docs/images/about.png)
+![Picture](/docs/validation/about.png)
 
 3. animals.html
 
-![Picture](/docs/images/animals.png)
+![Picture](/docs/validation/animals.png)
 
 4. fundraising.html
 
-![Picture](/docs/images/fundraising.png)
+![Picture](/docs/validation/fundraising.png)
 
 5. contactus.html
 
-![Picture](/docs/images/contactus.png)
+![Picture](/docs/validation/contactus.png)
 
 ### CSS Validation
 
 https://jigsaw.w3.org/css-validator/ was used to validate CSS.
 
-![Picture](/docs/images/css.png)
+![Picture](/docs/validation/css.png)
 
 ### Accessibility
 
@@ -193,7 +193,7 @@ The results were as follows:
 
 https://developers.google.com/web/tools/lighthouse was used to test performance.
 
-![Picture](/docs/images/lighthouse.png)
+![Picture](/docs/validation/lighthouse.png)
 
 ### Responsiveness
 
@@ -201,23 +201,23 @@ http://ami.responsivedesign.is was used to test responsiveness.
 
 1. index.html
 
-![Picture](/docs/images/index-r.png)
+![Picture](/docs/responsive/index-r.png)
 
 2. about.html
 
-![Picture](/docs/images/about-r.png)
+![Picture](/docs/responsive/about-r.png)
 
 3. animals.html
 
-![Picture](/docs/images/animals-r.png)
+![Picture](/docs/responsive/animals-r.png)
 
 4. fundraising.html
 
-![Picture](/docs/images/fundraising-r.png)
+![Picture](/docs/responsive/fundraising-r.png)
 
 5. contactus.html
 
-![Picture](/docs/images/contactus-r.png)
+![Picture](/docs/responsive/contactus-r.png)
 
 ---
 
