@@ -130,20 +130,25 @@ footer ul a:hover {
 /* Index Page */
 /*******************************************/
 
+.dark-bg {
+    background-color: var(--font) !important;
+}
+
 /********/
 /* Text */
 /********/
 
 .fg-text {
-    background-color: var(--background);
+    background-color: var(--font);
     text-align: center;
 }
 
 .fg-text h2, .fg-text h3, .fg-text p {
-    color: var(--font);
+    color: white;
     font-weight: bold;
     text-align: center;
     margin: 0 2em;
+    background-color: var(--font) !important;
 }
 
 .fg-text h2 {
@@ -159,7 +164,7 @@ footer ul a:hover {
 .fg-text p {
     font-size: 2rem;
     margin: 4em 2em 0 2em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
 }
 
 /*********/
@@ -167,10 +172,9 @@ footer ul a:hover {
 /*********/
 
 .bg-img img {
-    width: 250px;
-    height: 250px;
-    margin: auto;
-    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
 }
 
 /*********/
@@ -652,11 +656,6 @@ form input[type=reset]:hover {
     
     .fg-text p {
         font-size: 1rem;
-    }
-
-    .bg-img img {
-        width: 150px;
-        height: 150px;
     }
 
 } 
