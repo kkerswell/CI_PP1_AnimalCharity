@@ -447,22 +447,29 @@ form input[type=reset]:hover {
 /* Contact Details */
 /*******************/
 
-.cu-column {
-    float: left;
-    width: 50%;
-}
-
 /***********/
 /* Address */
 /***********/
 
 .cu-address {
-    align-self:flex-end;
+    width: 50%;
+    text-align: end;
+    position: absolute;
+}
+
+.cu-address p {
+    margin-right: 5em;
 }
 
 /**************/
 /* Map iframe */
 /**************/
+
+.cu-iframe {
+    width: 50%;
+    position: relative;
+    float: right;
+}
 
 .cu-iframe iframe {
     width: 350px;
@@ -673,22 +680,6 @@ form input[type=reset]:hover {
         width: 80%;
     }
 
-    .cu-smaller-column {
-        width: 100%;
-    }
-
-    .cu-address {
-        float: none;
-        text-align: center;
-        margin-bottom: 2em !important;
-    }
-
-    .cu-details iframe {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
     form input[type=submit] {
         width: 100%;
     }
@@ -696,5 +687,21 @@ form input[type=reset]:hover {
     form input[type=reset] {
         width: 100%;
     }
+
+.cu-address {
+    width: 100%;
+    display: block;
+}
+
+.cu-address p {
+    margin-right: 0;
+}
+
+.cu-iframe {
+    width: 100%;
+    float: none;
+    display: block;
+}
+
 
 }
