@@ -120,15 +120,7 @@ footer ul a:hover {
     color: var(--main);
 }
 
-#fr-footer {
-    margin-top: 5em;
-}
-
-#cu-footer {
-    margin-top: 18em;
-}
-
-#ou-footer {
+#fr-footer, #cu-footer, #ou-footer {
     margin-top: 5em;
 }
 
@@ -357,19 +349,6 @@ body, h1, h2, h3, h4, h5, p {
 /* Contact Us Page */
 /*******************************************/
 
-/**************/
-/* Page Title */
-/**************/
-
-#form_header {
-    color: var(--font);
-    font-family: 'Montserrat Alternates', sans-serif;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    padding-top: 3em;
-}
-
 /********/
 /* Form */
 /********/
@@ -458,18 +437,15 @@ form input[type=reset]:hover {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-/*******************/
-/* Contact Details */
-/*******************/
-
 .cu-hr {
     width: 50%;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 
-.cu-row {
-    padding-top: 3em;
-}
+/*******************/
+/* Contact Details */
+/*******************/
 
 .cu-column {
     float: left;
@@ -481,15 +457,14 @@ form input[type=reset]:hover {
 /***********/
 
 .cu-address {
-    float: right;
-    margin-right: 5em;
+    align-self:flex-end;
 }
 
 /**************/
 /* Map iframe */
 /**************/
 
-.cu-details iframe {
+.cu-iframe iframe {
     width: 350px;
     height: 350px;
 }
