@@ -90,6 +90,7 @@ Build a website that allows the owners of an animal shelter to advertise animals
 * https://fonts.google.com/
 * https://stackoverflow.com/
 * https://colorhunt.co/
+* https://favicon.io/emoji-favicons/dog-face
 
 ---
 
