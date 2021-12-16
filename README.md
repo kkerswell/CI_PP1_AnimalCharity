@@ -126,19 +126,27 @@ To complete this action I completed the following process:
 
 3. Clicked on "Pages" within the side navigation area
 
-    ![picture alt](/docs/development/github-deploy-2.png)
+<details><summary>Picture</summary>
+<img src="docs/development/github-deploy-2.png">
+</details>
 
 4. Clicked the dropdown box under "Source" and choose "main"
 
-    ![picture alt](/docs/development/github-deploy-3.png)
+<details><summary>Picture</summary>
+<img src="docs/development/github-deploy-3.png">
+</details>
 
 5. Clicked on the "Save" button
 
-    ![picture alt](/docs/development/github-deploy-4.png)
+<details><summary>Picture</summary>
+<img src="docs/development/github-deploy-4.png">
+</details>
 
 6. Once saved, the url is then provided
 
-    ![picture alt](/docs/development/github-deploy-5.png)
+<details><summary>Picture</summary>
+<img src="docs/development/github-deploy-5.png">
+</details>
 
 ---
 
@@ -150,29 +158,41 @@ https://validator.w3.org/ was used to validate HTML.
 
 1. index.html
 
-![Picture](/docs/validation/index.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/index.png">
+</details>
 
 2. about.html
 
-![Picture](/docs/validation/about.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/about.png">
+</details>
 
 3. animals.html
 
-![Picture](/docs/validation/animals.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/animals.png">
+</details>
 
 4. fundraising.html
 
-![Picture](/docs/validation/fundraising.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/fundraising.png">
+</details>
 
 5. contactus.html
 
-![Picture](/docs/validation/contactus.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/contactus.png">
+</details>
 
 ### CSS Validation
 
 https://jigsaw.w3.org/css-validator/ was used to validate CSS.
 
-![Picture](/docs/validation/css.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/css.png">
+</details>
 
 ### Accessibility
 
@@ -191,7 +211,9 @@ The results were as follows:
 
 https://developers.google.com/web/tools/lighthouse was used to test performance.
 
-![Picture](/docs/validation/lighthouse.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/lighthouse.png">
+</details>
 
 ### Responsiveness
 
@@ -199,23 +221,33 @@ http://ami.responsivedesign.is was used to test responsiveness.
 
 1. index.html
 
-![Picture](/docs/responsive/index-r.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/index-r.png">
+</details>
 
 2. about.html
 
-![Picture](/docs/responsive/about-r.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/about-r.png">
+</details>
 
 3. animals.html
 
-![Picture](/docs/responsive/animals-r.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/animals-r.png">
+</details>
 
 4. fundraising.html
 
-![Picture](/docs/responsive/fundraising-r.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/fundraising-r.png">
+</details>
 
 5. contactus.html
 
-![Picture](/docs/responsive/contactus-r.png)
+<details><summary>Picture</summary>
+<img src="docs/validation/contactus-r.png">
+</details>
 
 ---
 
