@@ -171,6 +171,7 @@ The webpage was designed with the feeling a customer might get while dining at t
 - Balsamiq
 - Google Fonts
 - Font Awsome
+- TinyPNG<span>.</span>com
 - Favicon<span>.</span>io
 
 ---
