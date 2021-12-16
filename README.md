@@ -21,12 +21,12 @@ Developer: Keith Kerswell
     3. [Fonts](#fonts)
     4. [Images and Video](#images-and-video)
     5. [Structure](#structure)
-    6. [Wireframes](#wireframes)
-4. [Technologies Used](#technologies-used)
+4. [Wireframes](#wireframes)
+5. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
-5. [Features](#features)
-6. [Testing](#validation)
+6. [Features](#features)
+7. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
@@ -96,27 +96,27 @@ Developer: Keith Kerswell
 
 ## Design
 
-* Design Choices
+# Design Choices
 
 The webpage was designed with the feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
    
-* Colour Scheme
+# Colour Scheme
     * Create a modern colour scheme with soft tones
     * Primary background of the website will be white, so this would need to form part of the palette.
     * The goal is to choose gender-neutral colours.
     * Final palette colours that were chosen were #F4F9F4 #C4E3CB #8AAE92 #616161
     * Source: https://colorhunt.co/palette/f4f9f4c4e3cb8aae92616161
-* Fonts
+# Fonts
     * Create a modern look with soft lines
     * Final font chosen was Montserrat Alternates by Google Fonts
     * Source: https://fonts.google.com/specimen/Montserrat+Alternates?query=Montserrat+Alternates
-* Images and Video
+# Images and Video
     * If the site was live then the companies own images/video would be used
     * For the project, royalt free imagry is required
     * Include pictures of cats and dogs
     * sources (images): https://unsplash.com/
     * Sources (video): https://www.pexels.com/
-* Structure
+# Structure
     The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
     The website consists of five separate pages: 
         - A homepage with a sections for News and Sunday Meal Offers
