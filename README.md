@@ -15,9 +15,9 @@ Developer: Keith Kerswell
     1. [Target Audience](#target-audience)
     2. [User Requrements and Expectations](#user-requrements-and-expectations)
     3. [User Stories](#user-stories)
-3. [Design](#design)
+3. [Design](#Design)
     1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
+    2. [Colour Scheme](#colour-scheme)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
@@ -93,38 +93,36 @@ Developer: Keith Kerswell
 3. As the site owner, I want users to get to know the animal shelter. 
 4. As the site owner, I want the users to be able to contact us.
 
-## User Experience (UX)
+## Design
 
-* Design
-   * Design Choices
+* Design Choices
+
+The webpage was designed with the feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
    
-      The webpage was designed with the feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. 
-      Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
-   
-    * Colour Scheme
-        * Create a modern colour scheme with soft tones
-        * Primary background of the website will be white, so this would need to form part of the palette.
-        * The goal is to choose gender-neutral colours.
-        * Final palette colours that were chosen were #F4F9F4 #C4E3CB #8AAE92 #616161
-        * Source: https://colorhunt.co/palette/f4f9f4c4e3cb8aae92616161
-    * Fonts
-        * Create a modern look with soft lines
-        * Final font chosen was Montserrat Alternates by Google Fonts
-        * Source: https://fonts.google.com/specimen/Montserrat+Alternates?query=Montserrat+Alternates
-    * Images and Video
-        * If the site was live then the companies own images/video would be used
-        * For the project, royalt free imagry is required
-        * Include pictures of cats and dogs
-        * sources (images): https://unsplash.com/
-        * Sources (video): https://www.pexels.com/
-   * Structure
-      The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
-      The website consists of five separate pages: 
-      - A homepage with a sections for News and Sunday Meal Offers
-      - An about page with the About Us and Meet the Chef
-      - A menu page
-      - A image gallery with images and video showcasing the general feel of the restaurant
-      - A contact page with a contact form, a map and information about the bussines section
+* Colour Scheme
+    * Create a modern colour scheme with soft tones
+    * Primary background of the website will be white, so this would need to form part of the palette.
+    * The goal is to choose gender-neutral colours.
+    * Final palette colours that were chosen were #F4F9F4 #C4E3CB #8AAE92 #616161
+    * Source: https://colorhunt.co/palette/f4f9f4c4e3cb8aae92616161
+* Fonts
+    * Create a modern look with soft lines
+    * Final font chosen was Montserrat Alternates by Google Fonts
+    * Source: https://fonts.google.com/specimen/Montserrat+Alternates?query=Montserrat+Alternates
+* Images and Video
+    * If the site was live then the companies own images/video would be used
+    * For the project, royalt free imagry is required
+    * Include pictures of cats and dogs
+    * sources (images): https://unsplash.com/
+    * Sources (video): https://www.pexels.com/
+* Structure
+    The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
+    The website consists of five separate pages: 
+        - A homepage with a sections for News and Sunday Meal Offers
+        - An about page with the About Us and Meet the Chef
+        - A menu page
+        - A image gallery with images and video showcasing the general feel of the restaurant
+        - A contact page with a contact form, a map and information about the bussines section
 
 ---
 
