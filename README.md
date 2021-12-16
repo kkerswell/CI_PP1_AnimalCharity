@@ -222,31 +222,31 @@ http://ami.responsivedesign.is was used to test responsiveness.
 1. index.html
 
 <details><summary>Picture</summary>
-<img src="docs/validation/index-r.png">
+<img src="docs/responsive/index-r.png">
 </details>
 
 2. about.html
 
 <details><summary>Picture</summary>
-<img src="docs/validation/about-r.png">
+<img src="docs/responsive/about-r.png">
 </details>
 
 3. animals.html
 
 <details><summary>Picture</summary>
-<img src="docs/validation/animals-r.png">
+<img src="docs/responsive/animals-r.png">
 </details>
 
 4. fundraising.html
 
 <details><summary>Picture</summary>
-<img src="docs/validation/fundraising-r.png">
+<img src="docs/responsive/fundraising-r.png">
 </details>
 
 5. contactus.html
 
 <details><summary>Picture</summary>
-<img src="docs/validation/contactus-r.png">
+<img src="docs/responsive/contactus-r.png">
 </details>
 
 ---
