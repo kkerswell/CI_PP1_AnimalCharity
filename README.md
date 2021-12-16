@@ -64,26 +64,6 @@ Build a website that allows the owners of an animal shelter to advertise animals
 <img src="docs/wireframes/contactus-wf.png">
 </details>
 
-1. index.html
-
-![Picture]()
-
-2. about.html
-
-![Picture]()
-
-3. animals.html
-
-![Picture]()
-
-4. fundraising.html
-
-![Picture](/)
-
-5. contactus.html
-
-![Picture](/)
-
 ---
 
 ## Features
@@ -137,6 +117,10 @@ To complete this action I completed the following process:
 1. Navigated to my site repository
 
     https://github.com/kkerswell/CI_PP1_AnimalCharity
+
+2. <details><summary>Clicked on "Settings" within the top navigation area</summary>
+<img src="docs/development/github-deploy-1.png">
+</details>
 
 2. Clicked on "Settings" within the top navigation area
 
