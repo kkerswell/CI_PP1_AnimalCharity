@@ -1,39 +1,113 @@
 # **<center>Cymru Animal Shelter</center>**
 
+Developer: Keith Kerswell
+
 ![picture alt](/docs/site-design.png)
 
-## User Story
+[Live webpage](https://kkerswell.github.io/CI_PP1_AnimalCharity/)
 
-Build a website that allows the owners of an animal shelter to advertise animals available for adoptions and also their fundraising events.
+---
 
-### External user’s goal ###
-* Visit a website to view animals available for adoption.
-* Visit the website to see any fundraising events.
-* Visit the website to contact the shelter.
-* Visit the website to find how where the shelter is located.S
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colours)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
+5. [Features](#features)
+6. [Testing](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
-### Site owner's goal ###
+---
 
-* Attracting people who want to adopt an animal.
-* Have a page describing the shelter and its purpose
-* Have a gallery of all animals currently available for adoption.
-* Have a page dedicated to advertising annual fundraising events.
-* Provide a method for users of the website to contact the shelter to express interest in an animal. 
-* Provide information on the gym's location
+## Project Goals 
 
-------
+### User Goals
+- Find an animal shelter that has available animals for adoption.
+- Find information about the animal shelter.
+- Contact the animal shelter.
+- Find the location of the animal shelter.
+- Find any fundraising activites.
+
+### Site Owner Goals
+- Attract people who want to adopt an animal.
+- Provide a way for people looking to adopt an animal to easily contact the animal shelter.
+- Have a page dedicated to advertising annual fundraising events.
+- Have a gallery of all animals currently available for adoption.
+
+---
+
+## User Experience
+
+### Target Audience
+- People looking to adopt an animal.
+- People looking to attend a fundraising event
+
+### User Requrements and Expectations
+
+- A simple and intuitive navigation system
+- Quickly and easily find relevant information
+- Links and functions that work as expected
+- Good presentation and a visually appealing design regardless of screen size
+- An easy way to contact the animal shelter
+- Simple content that the user can skim read
+- Accessibility
+
+### User Stories
+
+#### First-time User 
+1. As a first time user, I want to know where the animal shelter is located
+2. As a first time user, I want to know the animals available for adoption
+3. As a first time user, I want to know more about the animal shelter
+4. As a first time user, I want to know about any fundraising activities
+5. As a first time user, I want to be able to contact the animal shelter
+
+#### Returning User
+1. As a returning user, I want to know which animals are available for adoption
+2. As a returning user, I want to know about any fundraising activities
+3. As a returning user, I want to be able to contact the animal shelter
+
+#### Site Owner 
+1. As the site owner, I want users to find information about upcoming fundraising activities.
+2. As the site owner, I want users to find information about available animals ready for adoption.
+3. As the site owner, I want users to get to know the animal shelter. 
+4. As the site owner, I want the users to be able to contact us.
 
 ## User Experience (UX)
 
-* First Time Visitors
 * Design
+   * Design Choices
+   
+      The webpage was designed with the feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. 
+      Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
+   
     * Colour Scheme
         * Create a modern colour scheme with soft tones
         * Primary background of the website will be white, so this would need to form part of the palette.
         * The goal is to choose gender-neutral colours.
         * Final palette colours that were chosen were #F4F9F4 #C4E3CB #8AAE92 #616161
         * Source: https://colorhunt.co/palette/f4f9f4c4e3cb8aae92616161
-    * Typography
+    * Fonts
         * Create a modern look with soft lines
         * Final font chosen was Montserrat Alternates by Google Fonts
         * Source: https://fonts.google.com/specimen/Montserrat+Alternates?query=Montserrat+Alternates
@@ -43,6 +117,14 @@ Build a website that allows the owners of an animal shelter to advertise animals
         * Include pictures of cats and dogs
         * sources (images): https://unsplash.com/
         * Sources (video): https://www.pexels.com/
+   * Structure
+      The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
+      The website consists of five separate pages: 
+      - A homepage with a sections for News and Sunday Meal Offers
+      - An about page with the About Us and Meet the Chef
+      - A menu page
+      - A image gallery with images and video showcasing the general feel of the restaurant
+      - A contact page with a contact form, a map and information about the bussines section
 
 ---
 
@@ -109,8 +191,6 @@ I kept track of updates by using commits in Git.  The terminal commands for thes
 ### Deployment ###
 
 The website was deployed to GitHub Pages.
-
-The public URL for my website is: https://kkerswell.github.io/CI_PP1_AnimalCharity/
 
 To complete this action I completed the following process:
 
