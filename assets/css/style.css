@@ -182,9 +182,10 @@ footer ul a:hover {
 /*********/
 
 .main-video video {   
-    width: 100% !important; 
+    width: 80% !important; 
     height: auto !important;
-    margin-top: 4em;
+    margin: 4em auto 0 auto;
+
 }
 
 
