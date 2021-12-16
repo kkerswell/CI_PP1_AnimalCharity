@@ -48,25 +48,41 @@ Build a website that allows the owners of an animal shelter to advertise animals
 
 ## Wireframes
 
+<details><summary>Home</summary>
+<img src="docs/wireframes/index-wf.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/wireframes/about-wf.png">
+</details>
+<details><summary>Animals</summary>
+<img src="docs/wireframes/animals-wf.png">
+</details>
+<details><summary>Fundraising</summary>
+<img src="docs/wireframes/fundraising-wf.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs/wireframes/contactus-wf.png">
+</details>
+
 1. index.html
 
-![Picture](/docs/wireframes/index-wf.png)
+![Picture]()
 
 2. about.html
 
-![Picture](/docs/wireframes/about-wf.png)
+![Picture]()
 
 3. animals.html
 
-![Picture](/docs/wireframes/animals-wf.png)
+![Picture]()
 
 4. fundraising.html
 
-![Picture](/docs/wireframes/fundraising-wf.png)
+![Picture](/)
 
 5. contactus.html
 
-![Picture](/docs/wireframes/contactus-wf.png)
+![Picture](/)
 
 ---
 
