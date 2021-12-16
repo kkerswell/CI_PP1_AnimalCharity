@@ -156,6 +156,21 @@ Developer: Keith Kerswell
 * Pictures and video
 * Calendar of events
 
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks & Tools
+- Git
+- GitHub
+- Gitpod
+- Balsamiq
+- Google Fonts
+- Font Awsome
+- Favicon<span>.</span>io
+
 ---
 
 ## External Sources ##
