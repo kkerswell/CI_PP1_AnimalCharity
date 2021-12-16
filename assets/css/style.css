@@ -20,8 +20,10 @@ body, h1, h2, h3, h4, h5, p {
 
 .page-head {
     font-size: 3rem;
-    text-align: center;
-    margin: 1em 0;
+    text-align: center;    
+    background-color: var(--font) !important;
+    color: white;
+    padding: 1em;        
 }
 
 
@@ -158,13 +160,18 @@ footer ul a:hover {
 
 .fg-text h3 {
     font-size: 3rem;
-    margin-top: 2em;
+    margin: 1em 0;
 }
 
 .fg-text p {
     font-size: 2rem;
-    margin: 4em 2em 0 2em;
+    margin: 2em 2em 0 2em;
     padding-bottom: 2em;
+}
+
+.fg-text i {
+    font-size: 3rem;
+    color: white;
 }
 
 /*********/
@@ -177,24 +184,18 @@ footer ul a:hover {
     display: inline-block;
 }
 
-/*********/
-/* video */
-/*********/
-
-.main-video video {   
-    width: 80% !important; 
-    height: auto !important;
-    margin: 4em auto 0 auto;
-
-}
-
 
 /*******************************************/
 /* About Us Page */
 /*******************************************/
 
 .about_content {
-    margin-bottom: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-width: 0px !important;
+    width: 100%;
+    background-color: var(--contrast);
+    color: white;
 }
 
 /********/
@@ -204,6 +205,7 @@ footer ul a:hover {
 .about_text {
     font-family: 'Montserrat Alternates', sans-serif;
     color: var(--font);
+    margin-top: 1em;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -221,13 +223,26 @@ footer ul a:hover {
 /**********/
 
 .animal_hero {
-    display: block;
-    width: 30%;
+    width: 100%;
     height: auto;
-    border-radius: 5%;
-    margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 3em;
+}
+
+/*********/
+/* video */
+/*********/
+
+.main-video {
+    width: 100%;
+    background-color: var(--font);
+}
+
+.main-video video {   
+    width: 50% !important; 
+    height: auto !important;
+    background-color: var(--font);
+    padding: 3em 0;
+    margin-left: 25%;
 }
 
 
