@@ -118,13 +118,11 @@ To complete this action I completed the following process:
 
     https://github.com/kkerswell/CI_PP1_AnimalCharity
 
-2. <details><summary>Clicked on "Settings" within the top navigation area</summary>
-<img src="docs/development/github-deploy-1.png">
-</details>
-
 2. Clicked on "Settings" within the top navigation area
 
-    ![picture alt](/docs/development/github-deploy-1.png)
+<details><summary>Picture</summary>
+<img src="docs/development/github-deploy-1.png">
+</details>
 
 3. Clicked on "Pages" within the side navigation area
 
