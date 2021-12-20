@@ -8,14 +8,15 @@
     --color-one: #F4F9F4;
     --color-two: #C4E3CB;
     --color-three: #8AAE92;
-    --color-four: #424242;
+    --color-four: #616161;
+    --color-five: #1A1A1A;
 }
 
 body, h1, h2, h3, h4, h5, p {
     font-family: 'Montserrat Alternates', sans-serif;
     padding: 0;
     margin: 0;
-    color: var(--color-four);
+    color: var(--color-five);
 }
 
 .page-head {
@@ -59,13 +60,13 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: var(--color-four);
+    color: var(--color-five);
     margin-right: 2em;
     font-weight: 600;
 }
 
 header nav a.active {
-    border-color: var(--color-four);
+    border-color: var(--color-five);
     border-bottom-style: solid;
     border-width: 3px;
 }
@@ -75,7 +76,7 @@ header nav a:hover {
     border-color: var(--color-three);
     border-bottom-style: solid;
     border-width: 3px;
-    color: var(--color-four);
+    color: var(--color-five);
 }
 
 
@@ -91,7 +92,7 @@ footer {
 
 footer p {
     background-color: var(--color-three) !important; /* !important used here to override bootstrap styling */
-    color: #1A1A1A;
+    color: var(--color-five);
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 5.5em;
     font-size: medium;
@@ -112,7 +113,7 @@ footer ul {
 
 footer ul a {
     text-decoration: none;
-    color: var(--color-four);
+    color: var(--color-five);
     font-size: x-large;
     margin: 0 0 0 1em;
 }
@@ -135,7 +136,7 @@ footer ul a:hover {
 /********/
 
 .fg-text {
-    background-color: var(--color-four);
+    background-color: var(--color-five);
     text-align: center;
     vertical-align: middle;
 }
@@ -145,7 +146,7 @@ footer ul a:hover {
     font-weight: bold;
     text-align: center;
     margin: 0 2em;
-    background-color: var(--color-four) !important;
+    background-color: var(--color-five) !important;
     vertical-align: middle;
 }
 
@@ -257,7 +258,7 @@ footer ul a:hover {
     width: 20%;
     margin: auto;
     background-color: var(--color-three) !important;
-    color: var(--color-four);
+    color: var(--color-five);
     cursor: pointer;
     display: inline-block;
     border-width: 0;
@@ -398,7 +399,7 @@ footer ul a:hover {
 form {
     border-radius: 5px;
     background-color:var(--color-one);
-    color: var(--color-four);
+    color: var(--color-five);
     padding: 20px;
     width: 50%;
     margin: auto;
@@ -453,7 +454,7 @@ form input[type=checkbox], select {
 form input[type=submit] {
     width: 25%;
     background-color: var(--color-two);
-    color: var(--color-four);
+    color: var(--color-five);
     padding: 14px 20px;
     margin: auto;
     border: none;
@@ -468,7 +469,7 @@ form input[type=submit] {
 form input[type=reset] {
     width: 25%;
     background-color: var(--color-two);
-    color: var(--color-four);
+    color: var(--color-five);
     padding: 14px 20px;
     margin: auto;
     border: none;
@@ -545,7 +546,7 @@ form input[type=reset]:hover {
     margin: 2em auto;
     padding: 2em;
     background-color: var(--color-two);
-    color: var(--color-four);
+    color: var(--color-five);
     text-decoration: none;
     display: block;
     width: 50%;
