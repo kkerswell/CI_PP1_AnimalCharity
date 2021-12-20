@@ -261,31 +261,31 @@ To complete this action I completed the following process:
 
 <details><summary>Picture</summary>
 <img src="docs/development/github-deploy-1.png">
-</details>
+</details><br>
 
 3. Clicked on "Pages" within the side navigation area
 
 <details><summary>Picture</summary>
 <img src="docs/development/github-deploy-2.png">
-</details>
+</details><br>
 
 4. Clicked the dropdown box under "Source" and choose "main"
 
 <details><summary>Picture</summary>
 <img src="docs/development/github-deploy-3.png">
-</details>
+</details><br>
 
 5. Clicked on the "Save" button
 
 <details><summary>Picture</summary>
 <img src="docs/development/github-deploy-4.png">
-</details>
+</details><br>
 
 6. Once saved, the url is then provided
 
 <details><summary>Picture</summary>
 <img src="docs/development/github-deploy-5.png">
-</details>
+</details><br>
 
 ## Testing
 
@@ -293,35 +293,35 @@ To complete this action I completed the following process:
 
 https://validator.w3.org/ was used to validate HTML.
 
-1. index.html
+#### index.html
 
 <details><summary>Picture</summary>
 <img src="docs/validation/index.png">
-</details>
+</details><br>
 
-2. about.html
+#### about.html
 
 <details><summary>Picture</summary>
 <img src="docs/validation/about.png">
-</details>
+</details><br>
 
-3. animals.html
+#### animals.html
 
 <details><summary>Picture</summary>
 <img src="docs/validation/animals.png">
-</details>
+</details><br>
 
-4. fundraising.html
+#### fundraising.html
 
 <details><summary>Picture</summary>
 <img src="docs/validation/fundraising.png">
-</details>
+</details><br>
 
-5. contactus.html
+#### contactus.html
 
 <details><summary>Picture</summary>
 <img src="docs/validation/contactus.png">
-</details>
+</details><br>
 
 ### CSS Validation
 
@@ -329,7 +329,7 @@ https://jigsaw.w3.org/css-validator/ was used to validate CSS.
 
 <details><summary>Picture</summary>
 <img src="docs/validation/css.png">
-</details>
+</details><br>
 
 ### Accessibility
 
@@ -337,12 +337,45 @@ https://wave.webaim.org/ was used to test accessibility.
 
 The results were as follows:
 
-1. Errors
-    * 3 x Errors for broken links. However, these were for the three social links in the footer and is currently expected behaviour.
-2. Contrast Errors
-    * Where I had grey text on a green background, I had warnings for low contrast. However, I felt the colours worked well and decided to keep them.
-3. Alerts
-    * 1 x Alert for HTML5 video or audio. However, this was only for video with audio and the site recommended providing synchronized captioning and a transcript, the video I used did not have any audio included.
+#### index.html
+
+<details><summary>Picture</summary>
+<img src="docs/accessibility/accessibility-index.jpg">
+</details><br>
+
+#### about.html
+
+<details><summary>Picture</summary>
+<img src="docs/accessibility/accessibility-about.jpg">
+</details><br>
+
+Whilst the above picture shows a contrast error, I was unable to locate this on the tool.
+
+#### animals.html
+
+<details><summary>Picture</summary>
+<img src="docs/accessibility/accessibility-animals.jpg">
+</details><br>
+
+#### fundraising.html
+
+<details><summary>Picture</summary>
+<img src="docs/accessibility/accessibility-fundraising.jpg">
+</details><br>
+
+#### contactus.html
+
+<details><summary>Picture</summary>
+<img src="docs/accessibility/accessibility-contact.jpg">
+</details><br>
+
+The above test gave an error relating to contrast on the address section of the page.
+
+<details><summary>Picture</summary>
+<img src="docs/accessibility/accessibility-contact-contrast.jpg">
+</details><br>
+
+However, as can be seen in the above picture, the tool was incorrectly picking up that the background color and font color were the same.
 
 ### Performance
 
@@ -350,41 +383,41 @@ https://developers.google.com/web/tools/lighthouse was used to test performance.
 
 <details><summary>Picture</summary>
 <img src="docs/validation/lighthouse.png">
-</details>
+</details><br>
 
 ### Responsiveness
 
 http://ami.responsivedesign.is was used to test responsiveness.
 
-1. index.html
+#### index.html
 
 <details><summary>Picture</summary>
 <img src="docs/responsive/index-r.png">
-</details>
+</details><br>
 
-2. about.html
+#### about.html
 
 <details><summary>Picture</summary>
 <img src="docs/responsive/about-r.png">
-</details>
+</details><br>
 
-3. animals.html
+#### animals.html
 
 <details><summary>Picture</summary>
 <img src="docs/responsive/animals-r.png">
-</details>
+</details><br>
 
-4. fundraising.html
+#### fundraising.html
 
 <details><summary>Picture</summary>
 <img src="docs/responsive/fundraising-r.png">
-</details>
+</details><br>
 
-5. contactus.html
+#### contactus.html
 
 <details><summary>Picture</summary>
 <img src="docs/responsive/contactus-r.png">
-</details>
+</details><br>
 
 ### Browser compatibility
 
