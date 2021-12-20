@@ -447,7 +447,136 @@ http://ami.responsivedesign.is was used to test responsiveness.
 
 ### Browser compatibility
 
+The website was tested on the following browsers:
+
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Egde
+
 ### Testing user stories
+
+1. As a first time user, I want to know where the animal shelter is located
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Address | Navigate to the Contact Us page, locate the address | Locating address of the animal shelter | Works as expected |
+| Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the animal shelter | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/location-ust-one.jpg">
+<img src="docs/user-story-testing/location-ust-two.jpg">
+</details><br>
+
+2. As a first time user, I want to know the animals available for adoption
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Animals | Navigate to the Our Animals page | See list of cats and dogs available for adoption | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details><br>
+
+3. As a first time user, I want to know more about the animal shelter
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Navigate to the About Us page | Find description of the animal shelter | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/about-ust.jpg">
+</details><br>
+
+4. As a first time user, I want to know about any fundraising activities
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Upcoming Events | Navigate to the Fundraising page | Find a list of events with dates and descriptions | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-4.jpg">
+</details><br>
+
+5. As a first time user, I want to be able to contact the animal shelter
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Us | Navigate to the Contact Us page | Find the form | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-5.jpg">
+</details><br>
+
+6. As a returning user, I want to know which animals are available for adoption
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Animals | Navigate to the Our Animals page | See list of cats and dogs available for adoption | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-6.jpg">
+</details><br>
+
+7. As a returning user, I want to know about any fundraising activities
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Upcoming Events | Navigate to the Fundraising page | Find a list of events with dates and descriptions | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-7v1-15.jpg">
+<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+</details><br>
+
+8. As a returning user, I want to be able to contact the animal shelter
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Us | Navigate to the Contact Us page | Find the form | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-8.jpg">
+</details><br>
+
+9. As the site owner, I want users to find information about upcoming fundraising activities
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Upcoming Events | Navigate to the Fundraising page | Find a list of events with dates and descriptions | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-9-15.jpg">
+</details><br>
+
+10. As the site owner, I want users to find information about available animals ready for adoption
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Animals | Navigate to the Our Animals page | See list of cats and dogs available for adoption | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-10.jpg">
+</details><br>
+
+11. As the site owner, I want users to get to know the animal shelter
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Navigate to the About Us page | Find description of the animal shelter | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/about-ust.jpg">
+</details><br>
+
+12. As the site owner, I want the users to be able to contact us
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Us | Navigate to the Contact Us page | Find the form | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+</details>
 
 ## Problems
 
