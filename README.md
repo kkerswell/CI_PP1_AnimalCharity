@@ -36,8 +36,7 @@ Developer: Keith Kerswell
     7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
-10. [Credits](#credits)
-11. [Acknowledgements](#acknowledgements)
+10. [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
 
