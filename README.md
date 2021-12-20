@@ -238,7 +238,7 @@ GitHub was used as version control software to maintain, upload and share code w
 
 GitPod was used to write the code.
 
-#### Commits
+### Commits
 
 I kept track of updates by using commits in Git.  The terminal commands for these were:
 
@@ -246,7 +246,7 @@ I kept track of updates by using commits in Git.  The terminal commands for thes
 * git commit -m "Description of change"
 * git push
 
-### Deployment ###
+### Deployment
 
 The website was deployed to GitHub Pages.
 
@@ -385,7 +385,7 @@ http://ami.responsivedesign.is was used to test responsiveness.
 <img src="docs/responsive/contactus-r.png">
 </details>
 
-## Problems ##
+## Problems
 
 * spacing the a links in the nav bar.  I originally tried to add margin and padding but this was having an undesired effect.  I got arround this by adding line-height to the nav a section.
 * When Adding a h1 to the header, the alignment of both h1 and nav changed to an undesired style. I struggled to get the h1 to align left and the nav to align right.  I then changed both to display inline but the nav was then aligned right next to the h1 on the right side of the page, when I wanted it on the left. I overcame this by adding float right to the nav.
