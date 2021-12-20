@@ -418,31 +418,31 @@ http://ami.responsivedesign.is was used to test responsiveness.
 #### index.html
 
 <details><summary>Picture</summary>
-<img src="docs/responsive/index-r.png">
+<img src="docs/responsive/index-r.jpg">
 </details><br>
 
 #### about.html
 
 <details><summary>Picture</summary>
-<img src="docs/responsive/about-r.png">
+<img src="docs/responsive/about-r.jpg">
 </details><br>
 
 #### animals.html
 
 <details><summary>Picture</summary>
-<img src="docs/responsive/animals-r.png">
+<img src="docs/responsive/animals-r.jpg">
 </details><br>
 
 #### fundraising.html
 
 <details><summary>Picture</summary>
-<img src="docs/responsive/fundraising-r.png">
+<img src="docs/responsive/fundraising-r.jpg">
 </details><br>
 
 #### contactus.html
 
 <details><summary>Picture</summary>
-<img src="docs/responsive/contactus-r.png">
+<img src="docs/responsive/contactus-r.jpg">
 </details><br>
 
 ### Browser compatibility
