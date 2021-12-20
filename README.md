@@ -161,97 +161,65 @@ The website consists of five separate pages:
 - Favicon<span>.</span>io
 
 ## Features
-The page consists of five pages and fourteen features
+The page consists of five pages and twelve features
 
 ### Logo and Navigation Bar
 - Featured on all five pages
-- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
-links to the Homepage, About page, Menu page, Gallery and Contact us page
+- The navbar is fully responsive and includes links to the Homepage, About page, Our Animals page, Fundraising page and Contact us page
 - It allows users to easily navigate the page
-- The link for the page the user is currently on is highlighted 
+- The link for the page the user is currently on is underlined
+- User stories covered: 1, 6, 7, 10, 15
 
-![Logo and navbar](docs/features/feature-logo-and-navbar.jpg)
-
-### Carousel
-- Introduces the user to the restaurant with a small three picture slide show
-- Options for the user to navigate the slide show via back and forward arrows or indicators at the bottom
-
-![Carousel](docs/features/feature-carousel.jpg)
-
-### News
-- Allowes the user to see upcoming events or any news about the restaurant
-- User stories covered: 13
-
-![News](docs/features/feature-news.jpg)
-
-### Meal-deal
-- Allowes users to see what meal-deal is available for the upcoming Sunday
-- User stories covered: 5
-
-![Meal-deal](docs/features/feature-meal-deal.jpg)
+![Logo and navbar](docs/features/feature-navbar.jpg)
 
 ### Footer
 - Featured on all five pages
-- Consists of three seperate sections: contact information, opening times, and social media links
+- Consists of two seperate sections: Copyright information and social media links
 - User stories covered: 1, 6, 7, 10, 15
 
 ![Footer](docs/features/feature-footer.jpg)
 
+### Homepage
+- The homepage shows a hero image and striking text to give an impactful first impression to the site
+- User stories covered: 1, 6, 7, 10, 15
+
+![hero-text](docs/features/feature-hero-description.jpg)
+
 ### About Us
-- Gives a description of the restaurant and its facilities with a image of the front of the building on the right side
+- Gives a description of the animal shelter and its purpose with images of animals
+- Video to show volunteers
+- The page is fully responsive and changes layout on smaller screens
 - User stories covered: 3, 14
 
 ![About Us](docs/features/feature-about-us.jpg)
 
-### Customer reviews
-- Features a few reviews left by the restaurants customers on social media
+### Our Animals
+- Features all currently available animals for adoption with image, name and age
+- Features a page navigation at the top for cats and dogs. This will be best utilised for the user when there is a large number of animals available
+- The page is fully responsive and changes layout on smaller screens
 - User stories covered: 3
 
-![Reviews](docs/features/feature-reviews.jpg)
+![Reviews](docs/features/feature-animals.jpg)
 
-### Meet the Chef
-- Features a short bio of the chef with an image of the chef on the left side
-- User stories covered: 11
-
-![Meet the Chef](docs/features/feature-meet-the-chef.jpg)
-
-### Menu 
-- Gives an overview of the menu in five sections: starters, main meals, kids meals, dessers, and wine.
-- Each section of the menu is accompanied with an image of one of the items form the menu
-- Features pricing
-- User stories covered: 2, 8
-
-![Menu](docs/features/feature-menu.jpg)
-
-### Image Gallery
-- Imagery of the restaurant arranged in a grid
-- User stories covered: 4
-
-![Gallery](docs/features/feature-gallery.jpg)
-
-### Promo Video
-- A YouTube video to promote the restaurant 
+### Fundraising
+- Features a list of all upcoming fundraising activies including month, event name, full date and description
+- The page is fully responsive and changes layout on smaller screens
 - User stories covered: 4
 
 ![Video](docs/features/feature-video.jpg)
 
 ### Contact Form
-- A way for user to provide feedback
+- A way for users to enquire about animals
 - User stories covered: 9, 15
 
 ![Contact Form](docs/features/feature-contact-form.jpg)
 
-### Map
-- Shows the restaurant location on an embeded Google Map
+### Map and address
+- Shows the Animal Shelter's address
+- Shows the Animal Shelter's location on an embeded Google Map
 - User stories covered: 1, 12
 
-![Map](docs/features/feature-map.jpg)
-
-### Info Box
-- Provides the user with information about the restaurant including addres, phone number, email, and the name of the owner
-- User stories covered: 7, 15
-
-![Info Box](docs/features/feature-info-box.jpg)
+![Map](docs/features/feature-address-map.jpg)
 
 ## External Sources
 
