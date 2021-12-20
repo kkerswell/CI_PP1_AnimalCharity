@@ -381,8 +381,34 @@ However, as can be seen in the above picture, the tool was incorrectly picking u
 
 https://developers.google.com/web/tools/lighthouse was used to test performance.
 
+#### index.html
+
 <details><summary>Picture</summary>
-<img src="docs/validation/lighthouse.png">
+<img src="docs/performance/lh-index.jpg">
+</details><br>
+
+#### about.html
+
+<details><summary>Picture</summary>
+<img src="docs/performance/lh-about.jpg">
+</details><br>
+
+#### animals.html
+
+<details><summary>Picture</summary>
+<img src="docs/performance/lh-animals.jpg">
+</details><br>
+
+#### fundraising.html
+
+<details><summary>Picture</summary>
+<img src="docs/performance/lh-fundraising.jpg">
+</details><br>
+
+#### contactus.html
+
+<details><summary>Picture</summary>
+<img src="docs/performance/lh-contact.jpg">
 </details><br>
 
 ### Responsiveness
