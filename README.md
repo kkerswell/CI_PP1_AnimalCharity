@@ -34,7 +34,8 @@ Developer: Keith Kerswell
     6. [Fundraising](#fundraising)
     7. [Contact Form](#contact-form)
     8. [Map and address](#map-and-address)
-6. [Testing](#validation)
+6. [External Sources](#external-sources)
+7. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
@@ -42,9 +43,9 @@ Developer: Keith Kerswell
     5. [Device testing](#performing-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
-7. [Bugs](#Bugs)
-8. [Deployment](#deployment)
-9. [Acknowledgements](#acknowledgements)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+10. [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
 
