@@ -43,7 +43,7 @@ Developer: Keith Kerswell
     2. [CSS Validation](#css-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Device testing](#responsiveness)
+    5. [Responsiveness](#responsiveness)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
@@ -391,23 +391,23 @@ http://ami.responsivedesign.is was used to test responsiveness.
 
 ## Problems
 
-* spacing the a links in the nav bar.  I originally tried to add margin and padding but this was having an undesired effect.  I got arround this by adding line-height to the nav a section.
-* When Adding a h1 to the header, the alignment of both h1 and nav changed to an undesired style. I struggled to get the h1 to align left and the nav to align right.  I then changed both to display inline but the nav was then aligned right next to the h1 on the right side of the page, when I wanted it on the left. I overcame this by adding float right to the nav.
-* When hosting page on GitHub pages, the site did not work correctly.  I had to change all file paths to relative in order for this to work.
-* On the index page, I wanted a large full-scale image to cover the screen with a text overlay.  Whilst I managed to achieve this, I found I experienced issues when it came to responsive design. I attempted several fixes but ultimately I decided to change the design of the page to allow for easier coding and responsiveness.
-* When trying to style the images in the animal_hero div on the About Us page, I had an issue where the cat image was being pushed off the side of the page. I had to utilise Bootstrap in order to get the styling I wanted for this.
+- spacing the a links in the nav bar.  I originally tried to add margin and padding but this was having an undesired effect.  I got arround this by adding line-height to the nav a section.
+- When Adding a h1 to the header, the alignment of both h1 and nav changed to an undesired style. I struggled to get the h1 to align left and the nav to align right.  I then changed both to display inline but the nav was then aligned right next to the h1 on the right side of the page, when I wanted it on the left. I overcame this by adding float right to the nav.
+- When hosting page on GitHub pages, the site did not work correctly.  I had to change all file paths to relative in order for this to work.
+- On the index page, I wanted a large full-scale image to cover the screen with a text overlay.  Whilst I managed to achieve this, I found I experienced issues when it came to responsive design. I attempted several fixes but ultimately I decided to change the design of the page to allow for easier coding and responsiveness.
+- When trying to style the images in the animal_hero div on the About Us page, I had an issue where the cat image was being pushed off the side of the page. I had to utilise Bootstrap in order to get the styling I wanted for this.
 
 ## Credits
 
-* https://commonmark.org/help/
-* https://colorhunt.co/
-* https://www.w3schools.com/css/css3_variables.asp
-* https://unsplash.com/
-* https://fontawesome.com/
-* https://fonts.google.com/
-* https://stackoverflow.com/
-* https://colorhunt.co/
-* https://favicon.io/emoji-favicons/dog-face
+- https://commonmark.org/help/
+- https://colorhunt.co/
+- https://www.w3schools.com/css/css3_variables.asp
+- https://unsplash.com/
+- https://fontawesome.com/
+- https://fonts.google.com/
+- https://stackoverflow.com/
+- https://colorhunt.co/
+- https://favicon.io/emoji-favicons/dog-face
 
 ## Acknowledgements
 
