@@ -22,8 +22,10 @@ body, h1, h2, h3, h4, h5, p {
     font-size: 3rem;
     text-align: center;    
     background-color: var(--font) !important;
-    color: white;
-    padding: 1em;        
+    color: var(--background);
+    padding: 1em;
+    font-weight: 500;
+    line-height: 1.2;        
 }
 
 
@@ -191,6 +193,10 @@ footer ul a:hover {
 /*******************************************/
 /* About Us Page */
 /*******************************************/
+
+.about-content {
+    background-color: var(--main);
+}
 
 .container {
     padding: 0 !important;
