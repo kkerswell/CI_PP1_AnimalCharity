@@ -121,10 +121,6 @@ footer ul a:hover {
     color: var(--color-two);
 }
 
-#cu-footer {
-    margin-top: 5em;
-}
-
 
 /*******************************************/
 /* Index Page */
@@ -387,6 +383,14 @@ footer ul a:hover {
 /* Contact Us Page */
 /*******************************************/
 
+.cu-page {
+    background-color: var(--color-four);
+}
+
+.form-bg {
+    background-color: var(--color-one);
+}
+
 /********/
 /* Form */
 /********/
@@ -486,11 +490,6 @@ form input[type=reset]:hover {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.cu-hr {
-    width: 50%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
 
 /*******************/
 /* Contact Details */
@@ -504,6 +503,11 @@ form input[type=reset]:hover {
     width: 50%;
     text-align: end;
     position: absolute;
+    padding: 2em 0;
+}
+
+.cu-address p {
+    color: var(--color-one);
 }
 
 .cu-address p {
@@ -518,6 +522,7 @@ form input[type=reset]:hover {
     width: 50%;
     position: relative;
     float: right;
+    padding: 2em 0;
 }
 
 .cu-iframe iframe {
@@ -795,10 +800,10 @@ form input[type=reset]:hover {
 
     .cu-address {
         width: 100%;
-        display: inline;
         text-align: center;
         position: relative;
         font-size: 1rem;
+        background-color: var(--color-four);
     }
 
     .cu-address p {
@@ -808,9 +813,7 @@ form input[type=reset]:hover {
     .cu-iframe {
         width: 100%;
         float: none;
-        display: inline;
-        margin-top: 2em;
-        display: block;
+        background-color: var(--color-four);
     }
 
     .cu-iframe iframe {
