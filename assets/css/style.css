@@ -5,24 +5,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
 
 :root {
-    --background: #F4F9F4;
-    --main: #C4E3CB;
-    --contrast: #8AAE92;
-    --font: #616161;
+    --color-one: #F4F9F4;
+    --color-two: #C4E3CB;
+    --color-three: #8AAE92;
+    --color-four: #616161;
 }
 
 body, h1, h2, h3, h4, h5, p {
     font-family: 'Montserrat Alternates', sans-serif;
     padding: 0;
     margin: 0;
-    color: var(--font);
+    color: var(--color-four);
 }
 
 .page-head {
     font-size: 3rem;
     text-align: center;    
-    background-color: var(--font) !important;
-    color: var(--background);
+    background-color: var(--color-four) !important;
+    color: var(--color-one);
     padding: 1em;
     font-weight: 500;
     line-height: 1.2;        
@@ -34,8 +34,8 @@ body, h1, h2, h3, h4, h5, p {
 /*******************************************/
 
 header {
-    background-color: var(--main);
-    color: var(--font);
+    background-color: var(--color-two);
+    color: var(--color-four);
     width: 100%;
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 5.5em;
@@ -44,7 +44,7 @@ header {
 header h1 {    
     display: inline !important;
     padding-left: 1em !important;
-    background-color: var(--main) !important; /* !important used here to override bootstrap styling */
+    background-color: var(--color-two) !important; /* !important used here to override bootstrap styling */
     font-size: 2em;
     font-weight: 600;
     line-height: unset; /* !important used here to override bootstrap styling */
@@ -59,23 +59,23 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: var(--font);
+    color: var(--color-four);
     margin-right: 2em;
     font-weight: 600;
 }
 
 header nav a.active {
-    border-color: var(--font);
+    border-color: var(--color-four);
     border-bottom-style: solid;
     border-width: 3px;
 }
 
 header nav a:hover {    
     text-decoration: none;
-    border-color: var(--contrast);
+    border-color: var(--color-three);
     border-bottom-style: solid;
     border-width: 3px;
-    color: var(--font);
+    color: var(--color-four);
 }
 
 
@@ -86,12 +86,12 @@ header nav a:hover {
 footer {
     width: 100%;
     display: inline-block;
-    background-color: var(--contrast);
+    background-color: var(--color-three);
 }
 
 footer p {
-    background-color: var(--contrast) !important; /* !important used here to override bootstrap styling */
-    color: var(--font);
+    background-color: var(--color-three) !important; /* !important used here to override bootstrap styling */
+    color: var(--color-four);
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 5.5em;
     font-size: medium;
@@ -101,7 +101,7 @@ footer p {
 }
 
 footer ul {
-    background-color: var(--contrast);
+    background-color: var(--color-three);
     list-style-type: none;
     display: inline-flex;
     float: right;
@@ -112,16 +112,16 @@ footer ul {
 
 footer ul a {
     text-decoration: none;
-    color: var(--font);
+    color: var(--color-four);
     font-size: x-large;
     margin: 0 0 0 1em;
 }
 
 footer ul a:hover {
-    color: var(--main);
+    color: var(--color-two);
 }
 
-#cu-footer, #ou-footer {
+#cu-footer {
     margin-top: 5em;
 }
 
@@ -131,7 +131,7 @@ footer ul a:hover {
 /*******************************************/
 
 .dark-bg {
-    background-color: var(--font) !important;
+    background-color: var(--color-four) !important;
 }
 
 /********/
@@ -139,7 +139,7 @@ footer ul a:hover {
 /********/
 
 .fg-text {
-    background-color: var(--font);
+    background-color: var(--color-four);
     text-align: center;
     vertical-align: middle;
 }
@@ -149,7 +149,7 @@ footer ul a:hover {
     font-weight: bold;
     text-align: center;
     margin: 0 2em;
-    background-color: var(--font) !important;
+    background-color: var(--color-four) !important;
     vertical-align: middle;
 }
 
@@ -191,7 +191,7 @@ footer ul a:hover {
 /*******************************************/
 
 .about-content {
-    background-color: var(--main);
+    background-color: var(--color-two);
 }
 
 .container {
@@ -232,13 +232,13 @@ footer ul a:hover {
 
 .main-video {
     width: 100%;
-    background-color: var(--font);
+    background-color: var(--color-four);
 }
 
 .main-video video {   
     width: 50% !important; 
     height: auto !important;
-    background-color: var(--font);
+    background-color: var(--color-four);
     padding: 3em 0;
     margin-left: 25%;
 }
@@ -248,6 +248,10 @@ footer ul a:hover {
 /* Our Animals Page */
 /*******************************************/
 
+.oa-page {
+    background-color: var(--color-two) !important;
+}
+
 .animal-nav {
     text-align: center;
 }
@@ -256,8 +260,8 @@ footer ul a:hover {
     text-align: center;
     width: 20%;
     margin: auto;
-    background-color: var(--main) !important;
-    color: var(--font);
+    background-color: var(--color-three) !important;
+    color: var(--color-four);
     cursor: pointer;
     display: inline-block;
     border-width: 0;
@@ -271,13 +275,13 @@ footer ul a:hover {
 }
 
 .animal-nav a:hover {
-    background-color: var(--contrast) !important;
+    color: var(--color-one) !important;
 }
 
 .animal-container {
     display: block;
     height: min-content;
-    margin-bottom: 3em;
+    background-color: var(--color-two);
 }
 
 .animal-content {
@@ -288,6 +292,10 @@ footer ul a:hover {
     margin-top: 3em;
 }
 
+#cat {
+    padding-bottom: 3em;
+}
+
 .animial_ours {
     display: block;
     width: 90%;
@@ -295,20 +303,19 @@ footer ul a:hover {
     margin: auto;
 }
 
-#dog h1, #cat h1 {
-    color: var(--contrast);
-}
-
 .card {
+    background-color: var(--color-four);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.40);
     width: 30% !important;
     display: inline-block;
     padding-top: 2em;
     margin: 1em;
+    border-radius: 5%;
 }
 
 .card p {
     margin: 2em;
+    color: var(--color-one);
 }
 
 .card-container {
@@ -328,7 +335,7 @@ footer ul a:hover {
 }
 
 .fr-page {
-    background-color: var(--main) !important;
+    background-color: var(--color-two) !important;
 }
 
 .fr-row {
@@ -337,7 +344,7 @@ footer ul a:hover {
 }
 
 .fr-row:nth-child(odd) {
-    background-color: var(--contrast) !important;
+    background-color: var(--color-three) !important;
 }
 
 .fr-column {
@@ -386,8 +393,8 @@ footer ul a:hover {
 
 form {
     border-radius: 5px;
-    background-color:var(--background);
-    color: var(--font);
+    background-color:var(--color-one);
+    color: var(--color-four);
     padding: 20px;
     width: 50%;
     margin: auto;
@@ -441,8 +448,8 @@ form input[type=checkbox], select {
 
 form input[type=submit] {
     width: 25%;
-    background-color: var(--main);
-    color: var(--font);
+    background-color: var(--color-two);
+    color: var(--color-four);
     padding: 14px 20px;
     margin: auto;
     border: none;
@@ -456,8 +463,8 @@ form input[type=submit] {
 
 form input[type=reset] {
     width: 25%;
-    background-color: var(--main);
-    color: var(--font);
+    background-color: var(--color-two);
+    color: var(--color-four);
     padding: 14px 20px;
     margin: auto;
     border: none;
@@ -470,12 +477,12 @@ form input[type=reset] {
 }
 
 form input[type=submit]:hover {
-    background-color: var(--contrast);
+    background-color: var(--color-three);
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
 form input[type=reset]:hover {
-    background-color: var(--contrast);
+    background-color: var(--color-three);
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -532,8 +539,8 @@ form input[type=reset]:hover {
     text-align: center;
     margin: 2em auto;
     padding: 2em;
-    background-color: var(--main);
-    color: var(--font);
+    background-color: var(--color-two);
+    color: var(--color-four);
     text-decoration: none;
     display: block;
     width: 50%;
@@ -542,7 +549,7 @@ form input[type=reset]:hover {
 }
 
 .error404:hover {
-    background-color: var(--contrast);
+    background-color: var(--color-three);
     color: white;
 }
 
@@ -666,6 +673,18 @@ form input[type=reset]:hover {
 
 }
 
+/*************/
+/* Page Head */
+/*************/
+
+@media only screen and (max-width: 700px) {
+    
+    .page-head {
+        font-size: 1.5rem;
+    }
+    
+}
+
 /*********/
 /* Index */
 /*********/
@@ -686,9 +705,9 @@ form input[type=reset]:hover {
 
 } 
 
-/*********/
-/* Index */
-/*********/
+/************/
+/* About Us */
+/************/
 
 @media only screen and (max-width: 767px) {
     
@@ -703,10 +722,27 @@ form input[type=reset]:hover {
 /***********/
 
 @media only screen and (max-width: 1100px) {
-       
+    
+    .animal-content {
+        margin: 0;
+    }
+
+    .animal-content h2 {
+        text-align: center;
+        font-size: 2rem;
+        padding-bottom: 1em;
+    }
+
     .card {
-       margin: 0.5em;
-       width: 100% !important;
+       margin-bottom: 2em;
+       width: 80% !important;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+    }
+
+    .card-container {
+        padding-bottom: 0.5em;
     }
 
 }
@@ -718,7 +754,7 @@ form input[type=reset]:hover {
 @media only screen and (max-width: 1000px) {
     
     body, h1, h2, h3, h4, h5, p {
-        font-size: smaller;
+        font-size: small;
     }
 
     .fr-row {
@@ -730,11 +766,11 @@ form input[type=reset]:hover {
     }
 
     .fr-column:nth-child(odd) {
-        background-color: var(--contrast);
+        background-color: var(--color-three);
     }
 
     .fr-column:nth-child(even) {
-        background-color: var(--main);
+        background-color: var(--color-two);
     }
 
 }
