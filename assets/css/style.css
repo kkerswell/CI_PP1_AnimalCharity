@@ -143,6 +143,7 @@ footer ul a:hover {
 .fg-text {
     background-color: var(--font);
     text-align: center;
+    vertical-align: middle;
 }
 
 .fg-text h2, .fg-text h3, .fg-text p {
@@ -151,6 +152,7 @@ footer ul a:hover {
     text-align: center;
     margin: 0 2em;
     background-color: var(--font) !important;
+    vertical-align: middle;
 }
 
 .fg-text h2 {
@@ -182,6 +184,7 @@ footer ul a:hover {
     width: 100%;
     height: auto;
     display: inline-block;
+
 }
 
 
@@ -189,43 +192,36 @@ footer ul a:hover {
 /* About Us Page */
 /*******************************************/
 
-.about_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-width: 0px !important;
-    width: 100%;
-    background-color: var(--contrast);
-    color: white;
+.container {
+    padding: 0 !important;
+}
+
+.about-item {
+    padding-top: calc(var(--bs-gutter-x) * 1.5) !important;
+    padding-left: calc(var(--bs-gutter-x) * 1.5) !important;
+    padding-right: calc(var(--bs-gutter-x) * 1.5) !important;
+    padding-bottom: 0 !important;
+}
+
+.row:last-of-type {
+    padding-bottom: calc(var(--bs-gutter-x) * 1.5) !important;
 }
 
 /********/
 /* Text */
 /********/
 
-.about_text {
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: var(--font);
-    margin-top: 1em;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2em;
-    font-size: 1.25rem;
-    text-align: center;
+.about-text {
+    margin: auto;
+    text-align: justify;
 }
 
-.about_text:last-of-type {
-    margin-top: 2em;
-}
+/*********/
+/* Iamge */
+/*********/
 
-/**********/
-/* Images */
-/**********/
-
-.animal_hero {
-    width: 100%;
-    height: auto;
-    margin: 3em;
+.about-item img {
+    border-radius: 5%;
 }
 
 /*********/
@@ -679,24 +675,16 @@ form input[type=reset]:hover {
 } 
 
 /*********/
-/* About */
+/* Index */
 /*********/
 
-@media only screen and (max-width: 1400px) {
-       
-    .animal_hero {
-        width: 60%;
-    }
+@media only screen and (max-width: 767px) {
     
-}
+    .sm-order-first {
+        order: -1 !important;
+    }
 
-@media only screen and (max-width: 600px) {
-       
-    .about_text {
-        font-size: 1rem;
-    }
-    
-}
+} 
 
 /***********/
 /* Animals */
