@@ -6,7 +6,7 @@ Developer: Keith Kerswell
 
 [Live webpage](https://kkerswell.github.io/CI_PP1_AnimalCharity/)
 
----
+## Table of Contents
 
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
@@ -39,8 +39,6 @@ Developer: Keith Kerswell
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
----
-
 ## Project Goals 
 
 ### User Goals
@@ -55,8 +53,6 @@ Developer: Keith Kerswell
 - Provide a way for people looking to adopt an animal to easily contact the animal shelter.
 - Have a page dedicated to advertising annual fundraising events.
 - Have a gallery of all animals currently available for adoption.
-
----
 
 ## User Experience
 
@@ -128,8 +124,6 @@ The webpage was designed with the feeling a customer might get while dining at t
         - A image gallery with images and video showcasing the general feel of the restaurant
         - A contact page with a contact form, a map and information about the bussines section
 
----
-
 ## Wireframes
 
 <details><summary>Home</summary>
@@ -147,8 +141,6 @@ The webpage was designed with the feeling a customer might get while dining at t
 <details><summary>Contact Us</summary>
 <img src="docs/wireframes/contactus-wf.png">
 </details>
-
----
 
 ## Features
 
@@ -174,8 +166,6 @@ The webpage was designed with the feeling a customer might get while dining at t
 - TinyPNG<span>.</span>com
 - Favicon<span>.</span>io
 
----
-
 ## External Sources ##
 
 * https://commonmark.org/help/
@@ -187,8 +177,6 @@ The webpage was designed with the feeling a customer might get while dining at t
 * https://stackoverflow.com/
 * https://colorhunt.co/
 * https://favicon.io/emoji-favicons/dog-face
-
----
 
 ## Development ##
 
@@ -245,8 +233,6 @@ To complete this action I completed the following process:
 <details><summary>Picture</summary>
 <img src="docs/development/github-deploy-5.png">
 </details>
-
----
 
 ## Testing
 
@@ -346,8 +332,6 @@ http://ami.responsivedesign.is was used to test responsiveness.
 <details><summary>Picture</summary>
 <img src="docs/responsive/contactus-r.png">
 </details>
-
----
 
 ## Problems ##
 
