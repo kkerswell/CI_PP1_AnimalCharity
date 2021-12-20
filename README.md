@@ -2,7 +2,7 @@
 
 Developer: Keith Kerswell
 
-![picture alt](/docs/site-design.png)
+![picture alt](/docs/site-design.jpg)
 
 [Live webpage](https://kkerswell.github.io/CI_PP1_AnimalCharity/)
 
