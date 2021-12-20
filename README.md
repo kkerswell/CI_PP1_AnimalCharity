@@ -168,7 +168,6 @@ The page consists of five pages and twelve features
 - The navbar is fully responsive and includes links to the Homepage, About page, Our Animals page, Fundraising page and Contact us page
 - It allows users to easily navigate the page
 - The link for the page the user is currently on is underlined
-- User stories covered: 1, 6, 7, 10, 15
 
 ![Logo and navbar](docs/features/feature-navbar.jpg)
 
@@ -176,13 +175,11 @@ The page consists of five pages and twelve features
 - Featured on all five pages
 - Fully responsive
 - Consists of two seperate sections: Copyright information and social media links
-- User stories covered: 1, 6, 7, 10, 15
 
 ![Footer](docs/features/feature-footer.jpg)
 
 ### Homepage
 - The homepage shows a hero image and striking text to give an impactful first impression to the site
-- User stories covered: 1, 6, 7, 10, 15
 
 ![hero-text](docs/features/feature-hero-description.jpg)
 
@@ -190,7 +187,7 @@ The page consists of five pages and twelve features
 - Gives a description of the animal shelter and its purpose with images of animals
 - Video to show volunteers
 - The page is fully responsive and changes layout on smaller screens
-- User stories covered: 3, 14
+- User stories covered: 3, 11
 
 ![About Us](docs/features/feature-about-us.jpg)
 
@@ -198,27 +195,26 @@ The page consists of five pages and twelve features
 - Features all currently available animals for adoption with image, name and age
 - Features a page navigation at the top for cats and dogs. This will be best utilised for the user when there is a large number of animals available
 - The page is fully responsive and changes layout on smaller screens
-- User stories covered: 3
+- User stories covered: 2, 6, 10
 
 ![Reviews](docs/features/feature-animals.jpg)
 
 ### Fundraising
 - Features a list of all upcoming fundraising activies including month, event name, full date and description
 - The page is fully responsive and changes layout on smaller screens
-- User stories covered: 4
-
-![Video](docs/features/feature-video.jpg)
+- User stories covered: 4, 7
 
 ### Contact Form
 - A way for users to enquire about animals
-- User stories covered: 9, 15
+- User stories covered: 5, 8, 12
 
 ![Contact Form](docs/features/feature-contact-form.jpg)
 
 ### Map and address
 - Shows the Animal Shelter's address
 - Shows the Animal Shelter's location on an embeded Google Map
-- User stories covered: 1, 12
+- Fully responsive and changes layout on smaller screens
+- User stories covered: 1, 5, 8, 12
 
 ![Map](docs/features/feature-address-map.jpg)
 
