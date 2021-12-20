@@ -97,32 +97,35 @@ Developer: Keith Kerswell
 The webpage was designed with the feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
    
 # Colour Scheme
-    * Create a modern colour scheme with soft tones
-    * Primary background of the website will be white, so this would need to form part of the palette.
-    * The goal is to choose gender-neutral colours.
-    * Final palette colours that were chosen were #F4F9F4 #C4E3CB #8AAE92 #616161
-    * Source: https://colorhunt.co/palette/f4f9f4c4e3cb8aae92616161
+- Create a modern colour scheme with soft tones
+- Primary background of the website will be white, so this would need to form part of the palette.
+- The goal is to choose gender-neutral colours.
+- Final palette colours that were chosen were #F4F9F4 #C4E3CB #8AAE92 #616161
+- Source: https://colorhunt.co/palette/f4f9f4c4e3cb8aae92616161
+
 # Fonts
-    * Create a modern look with soft lines
-    * Final font chosen was Montserrat Alternates by Google Fonts
-    * Source: https://fonts.google.com/specimen/Montserrat+Alternates?query=Montserrat+Alternates
+- Create a modern look with soft lines
+- Final font chosen was Montserrat Alternates by Google Fonts
+- Source: https://fonts.google.com/specimen/Montserrat+Alternates?query=Montserrat+Alternates
+
 # Images and Video
-    * If the site was live then the companies own images/video would be used
-    * For the project, royalt free imagry is required
-    * Include pictures of cats and dogs
-    * sources (images): https://unsplash.com/
-    * Sources (video): https://www.pexels.com/
+- If the site was live then the companies own images/video would be used
+- For the project, royalt free imagry is required
+- Include pictures of cats and dogs
+- sources (images): https://unsplash.com/
+- Sources (video): https://www.pexels.com/
+
 # Structure
-    The page is structured in a well know, recognisable, user friendly, and easy to learn way. 
+The page is structured in a well know, recognisable, user friendly, and easy to learn way. 
     
-    Upon arriving to the website the user sees a familiar type of navigation bar and footer bar. 
+Upon arriving to the website the user sees a familiar type of navigation bar and footer bar. 
     
-    The website consists of five separate pages: 
-        - A homepage with a sections for News and Sunday Meal Offers
-        - An about page with the About Us and Meet the Chef
-        - A menu page
-        - A image gallery with images and video showcasing the general feel of the restaurant
-        - A contact page with a contact form, a map and information about the bussines section
+The website consists of five separate pages: 
+- A homepage with a sections for News and Sunday Meal Offers
+- An about page with the About Us and Meet the Chef
+- A menu page
+- A image gallery with images and video showcasing the general feel of the restaurant
+- A contact page with a contact form, a map and information about the bussines section
 
 ## Wireframes
 
