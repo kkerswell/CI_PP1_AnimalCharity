@@ -144,14 +144,6 @@ The website consists of five separate pages:
 <img src="docs/wireframes/contactus-wf.png">
 </details>
 
-## Features
-
-* Top navigation bar
-* Footer with copyright information and social media links
-* A homepage, about us page, fundraising page, animals for adoption page and a contact page with location information
-* Pictures and video
-* Calendar of events
-
 ## Technologies Used
 
 ### Languages
@@ -168,7 +160,100 @@ The website consists of five separate pages:
 - TinyPNG<span>.</span>com
 - Favicon<span>.</span>io
 
-## External Sources ##
+## Features
+The page consists of five pages and fourteen features
+
+### Logo and Navigation Bar
+- Featured on all five pages
+- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
+links to the Homepage, About page, Menu page, Gallery and Contact us page
+- It allows users to easily navigate the page
+- The link for the page the user is currently on is highlighted 
+
+![Logo and navbar](docs/features/feature-logo-and-navbar.jpg)
+
+### Carousel
+- Introduces the user to the restaurant with a small three picture slide show
+- Options for the user to navigate the slide show via back and forward arrows or indicators at the bottom
+
+![Carousel](docs/features/feature-carousel.jpg)
+
+### News
+- Allowes the user to see upcoming events or any news about the restaurant
+- User stories covered: 13
+
+![News](docs/features/feature-news.jpg)
+
+### Meal-deal
+- Allowes users to see what meal-deal is available for the upcoming Sunday
+- User stories covered: 5
+
+![Meal-deal](docs/features/feature-meal-deal.jpg)
+
+### Footer
+- Featured on all five pages
+- Consists of three seperate sections: contact information, opening times, and social media links
+- User stories covered: 1, 6, 7, 10, 15
+
+![Footer](docs/features/feature-footer.jpg)
+
+### About Us
+- Gives a description of the restaurant and its facilities with a image of the front of the building on the right side
+- User stories covered: 3, 14
+
+![About Us](docs/features/feature-about-us.jpg)
+
+### Customer reviews
+- Features a few reviews left by the restaurants customers on social media
+- User stories covered: 3
+
+![Reviews](docs/features/feature-reviews.jpg)
+
+### Meet the Chef
+- Features a short bio of the chef with an image of the chef on the left side
+- User stories covered: 11
+
+![Meet the Chef](docs/features/feature-meet-the-chef.jpg)
+
+### Menu 
+- Gives an overview of the menu in five sections: starters, main meals, kids meals, dessers, and wine.
+- Each section of the menu is accompanied with an image of one of the items form the menu
+- Features pricing
+- User stories covered: 2, 8
+
+![Menu](docs/features/feature-menu.jpg)
+
+### Image Gallery
+- Imagery of the restaurant arranged in a grid
+- User stories covered: 4
+
+![Gallery](docs/features/feature-gallery.jpg)
+
+### Promo Video
+- A YouTube video to promote the restaurant 
+- User stories covered: 4
+
+![Video](docs/features/feature-video.jpg)
+
+### Contact Form
+- A way for user to provide feedback
+- User stories covered: 9, 15
+
+![Contact Form](docs/features/feature-contact-form.jpg)
+
+### Map
+- Shows the restaurant location on an embeded Google Map
+- User stories covered: 1, 12
+
+![Map](docs/features/feature-map.jpg)
+
+### Info Box
+- Provides the user with information about the restaurant including addres, phone number, email, and the name of the owner
+- User stories covered: 7, 15
+
+![Info Box](docs/features/feature-info-box.jpg)
+
+## External Sources
 
 * https://commonmark.org/help/
 * https://colorhunt.co/
@@ -180,15 +265,15 @@ The website consists of five separate pages:
 * https://colorhunt.co/
 * https://favicon.io/emoji-favicons/dog-face
 
-## Development ##
+## Development 
 
-### Building and Maintaining ##
+### Building and Maintaining
 
 GitHub was used as version control software to maintain, upload and share code with other developers.
 
 GitPod was used to write the code.
 
-#### Commits ####
+#### Commits
 
 I kept track of updates by using commits in Git.  The terminal commands for these were:
 
