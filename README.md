@@ -34,7 +34,7 @@ Developer: Keith Kerswell
     6. [Fundraising](#fundraising)
     7. [Contact Form](#contact-form)
     8. [Map and address](#map-and-address)
-6. [Development](#external-sources)
+6. [Development](#development)
     1. [Building and Maintaining](#building-and-maintaining)
     2. [Commits](#commits)
     3. [Deployment](#deployment)
