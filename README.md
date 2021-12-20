@@ -79,15 +79,15 @@ Developer: Keith Kerswell
 5. As a first time user, I want to be able to contact the animal shelter
 
 #### Returning User
-1. As a returning user, I want to know which animals are available for adoption
-2. As a returning user, I want to know about any fundraising activities
-3. As a returning user, I want to be able to contact the animal shelter
+6. As a returning user, I want to know which animals are available for adoption
+7. As a returning user, I want to know about any fundraising activities
+8. As a returning user, I want to be able to contact the animal shelter
 
 #### Site Owner 
-1. As the site owner, I want users to find information about upcoming fundraising activities.
-2. As the site owner, I want users to find information about available animals ready for adoption.
-3. As the site owner, I want users to get to know the animal shelter. 
-4. As the site owner, I want the users to be able to contact us.
+9. As the site owner, I want users to find information about upcoming fundraising activities.
+10. As the site owner, I want users to find information about available animals ready for adoption.
+11. As the site owner, I want users to get to know the animal shelter. 
+12. As the site owner, I want the users to be able to contact us.
 
 ## Design
 
@@ -174,6 +174,7 @@ The page consists of five pages and twelve features
 
 ### Footer
 - Featured on all five pages
+- Fully responsive
 - Consists of two seperate sections: Copyright information and social media links
 - User stories covered: 1, 6, 7, 10, 15
 
