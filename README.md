@@ -399,6 +399,8 @@ http://ami.responsivedesign.is was used to test responsiveness.
 
 ## Credits
 
+Assets used have been credited in the code.  However, the following is a list of external sources that were utilised for this website.
+
 - https://commonmark.org/help/
 - https://colorhunt.co/
 - https://www.w3schools.com/css/css3_variables.asp
