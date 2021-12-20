@@ -38,12 +38,12 @@ Developer: Keith Kerswell
     1. [Building and Maintaining](#building-and-maintaining)
     2. [Commits](#commits)
     3. [Deployment](#deployment)
-7. [Testing](#validation)
+7. [Testing](#testing)
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
+    5. [Device testing](#responsiveness)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
@@ -384,6 +384,10 @@ http://ami.responsivedesign.is was used to test responsiveness.
 <details><summary>Picture</summary>
 <img src="docs/responsive/contactus-r.png">
 </details>
+
+### Browser compatibility
+
+### Testing user stories
 
 ## Problems
 
