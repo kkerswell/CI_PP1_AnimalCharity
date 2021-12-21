@@ -516,7 +516,8 @@ The website was tested on the following browsers:
 | Our Animals | Navigate to the Our Animals page | See list of cats and dogs available for adoption | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-6.jpg">
+<img src="docs/user-story-testing/animals-ust-one.jpg">
+<img src="docs/user-story-testing/animals-ust-two.jpg">
 </details><br>
 
 7. As a returning user, I want to know about any fundraising activities
@@ -526,8 +527,7 @@ The website was tested on the following browsers:
 | Upcoming Events | Navigate to the Fundraising page | Find a list of events with dates and descriptions | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-7v1-15.jpg">
-<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+<img src="docs/user-story-testing/fundraising-ust.jpg">
 </details><br>
 
 8. As a returning user, I want to be able to contact the animal shelter
@@ -537,7 +537,7 @@ The website was tested on the following browsers:
 | Contact Us | Navigate to the Contact Us page | Find the form | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-8.jpg">
+<img src="docs/user-story-testing/contact-ust.jpg">
 </details><br>
 
 9. As the site owner, I want users to find information about upcoming fundraising activities
@@ -547,7 +547,7 @@ The website was tested on the following browsers:
 | Upcoming Events | Navigate to the Fundraising page | Find a list of events with dates and descriptions | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-9-15.jpg">
+<img src="docs/user-story-testing/fundraising-ust.jpg">
 </details><br>
 
 10. As the site owner, I want users to find information about available animals ready for adoption
@@ -557,7 +557,8 @@ The website was tested on the following browsers:
 | Our Animals | Navigate to the Our Animals page | See list of cats and dogs available for adoption | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-10.jpg">
+<img src="docs/user-story-testing/animals-ust-one.jpg">
+<img src="docs/user-story-testing/animals-ust-two.jpg">
 </details><br>
 
 11. As the site owner, I want users to get to know the animal shelter
@@ -577,8 +578,20 @@ The website was tested on the following browsers:
 | Contact Us | Navigate to the Contact Us page | Find the form | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
-</details>
+<img src="docs/user-story-testing/contact-ust.jpg">
+</details><br>
+
+13. As the site owner, I want users to be able to see where we are located.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Address | Navigate to the Contact Us page, locate the address | Locating address of the animal shelter | Works as expected |
+| Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the animal shelter | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/location-ust-one.jpg">
+<img src="docs/user-story-testing/location-ust-two.jpg">
+</details><br>
 
 ## Problems
 
