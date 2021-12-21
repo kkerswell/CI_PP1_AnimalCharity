@@ -475,7 +475,8 @@ The website was tested on the following browsers:
 | Our Animals | Navigate to the Our Animals page | See list of cats and dogs available for adoption | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story-testing/animals-ust-one.jpg">
+<img src="docs/user-story-testing/animals-ust-two.jpg">
 </details><br>
 
 3. As a first time user, I want to know more about the animal shelter
