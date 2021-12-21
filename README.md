@@ -114,7 +114,7 @@ The webpage was designed with the feeling a customer might get while dining at t
 - The goal is to choose gender-neutral colours.
 - Final palette colours that were chosen were #F4F9F4 #C4E3CB #8AAE92 #616161
 - Source: https://colorhunt.co/palette/f4f9f4c4e3cb8aae92616161
-- The colour of #616161 was later changed to #424242 due to warning on accessibility checking tool.
+- Following accessibility testing, a fifth color was added which was a darker version of #616161. The new color is #1A1A1A.
 
 ### Fonts
 - Create a modern look with soft lines
@@ -123,7 +123,7 @@ The webpage was designed with the feeling a customer might get while dining at t
 
 ### Images and Video
 - If the site was live then the companies own images/video would be used
-- For the project, royalt free imagry is required
+- For the project, royalty free imagry is required
 - Include pictures of cats and dogs
 - sources (images): https://unsplash.com/
 - Sources (video): https://www.pexels.com/
