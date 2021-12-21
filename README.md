@@ -143,19 +143,19 @@ The website consists of five separate pages:
 ## Wireframes
 
 <details><summary>Home</summary>
-<img src="docs/wireframes/index-wf.png">
+<img src="docs/wireframes/index-wf.jpg">
 </details>
 <details><summary>About</summary>
-<img src="docs/wireframes/about-wf.png">
+<img src="docs/wireframes/about-wf.jpg">
 </details>
 <details><summary>Animals</summary>
-<img src="docs/wireframes/animals-wf.png">
+<img src="docs/wireframes/animals-wf.jpg">
 </details>
 <details><summary>Fundraising</summary>
-<img src="docs/wireframes/fundraising-wf.png">
+<img src="docs/wireframes/fundraising-wf.jpg">
 </details>
 <details><summary>Contact Us</summary>
-<img src="docs/wireframes/contactus-wf.png">
+<img src="docs/wireframes/contactus-wf.jpg">
 </details>
 
 ## Technologies Used
