@@ -216,7 +216,7 @@ The page consists of five pages and eight features
 ### Fundraising
 - Features a list of all upcoming fundraising activies including month, event name, full date and description
 - The page is fully responsive and changes layout on smaller screens
-- User stories covered: 4, 7
+- User stories covered: 4, 7, 9
 
 ### Contact Form
 - A way for users to enquire about animals
@@ -228,7 +228,7 @@ The page consists of five pages and eight features
 - Shows the Animal Shelter's address
 - Shows the Animal Shelter's location on an embeded Google Map
 - Fully responsive and changes layout on smaller screens
-- User stories covered: 1, 5, 8, 13
+- User stories covered: 1, 8, 13
 
 ![Map](docs/features/feature-address-map.jpg)
 
