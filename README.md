@@ -496,7 +496,7 @@ The website was tested on the following browsers:
 | Upcoming Events | Navigate to the Fundraising page | Find a list of events with dates and descriptions | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-4.jpg">
+<img src="docs/user-story-testing/fundraising-ust.jpg">
 </details><br>
 
 5. As a first time user, I want to be able to contact the animal shelter
@@ -506,7 +506,7 @@ The website was tested on the following browsers:
 | Contact Us | Navigate to the Contact Us page | Find the form | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-5.jpg">
+<img src="docs/user-story-testing/contact-ust.jpg">
 </details><br>
 
 6. As a returning user, I want to know which animals are available for adoption
