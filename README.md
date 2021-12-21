@@ -100,6 +100,7 @@ Developer: Keith Kerswell
 10. As the site owner, I want users to find information about available animals ready for adoption.
 11. As the site owner, I want users to get to know the animal shelter. 
 12. As the site owner, I want the users to be able to contact us.
+13. As the site owner, I want users to be able to see where we are located.
 
 ## Design
 
@@ -174,7 +175,7 @@ The website consists of five separate pages:
 - Favicon<span>.</span>io
 
 ## Features
-The page consists of five pages and twelve features
+The page consists of five pages and eight features
 
 ### Logo and Navigation Bar
 - Featured on all five pages
@@ -227,7 +228,7 @@ The page consists of five pages and twelve features
 - Shows the Animal Shelter's address
 - Shows the Animal Shelter's location on an embeded Google Map
 - Fully responsive and changes layout on smaller screens
-- User stories covered: 1, 5, 8, 12
+- User stories covered: 1, 5, 8, 13
 
 ![Map](docs/features/feature-address-map.jpg)
 
