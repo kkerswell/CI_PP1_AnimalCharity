@@ -38,6 +38,7 @@ Developer: Keith Kerswell
     1. [Building and Maintaining](#building-and-maintaining)
     2. [Commits](#commits)
     3. [Deployment](#deployment)
+    4. [Cloning](#cloning)
 7. [Testing](#testing)
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
@@ -287,6 +288,19 @@ To complete this action I completed the following process:
 <details><summary>Picture</summary>
 <img src="docs/development/github-deploy-5.png">
 </details><br>
+
+### Cloning
+
+1. Navigate to repo: https://github.com/kkerswell/CI_PP1_AnimalCharity
+2. Click on the 'Code' button
+3. Copy the repository url
+4. Navigate to your personal GitHub page
+5. Click on the 'Repositories' link at the top of the page
+6. Click on the 'New' button
+7. Click on 'Import a repository' at the top of the page
+8. Pase the repository url from above
+9. Name your new repository
+10. Click 'Begin Import'
 
 ## Testing
 
